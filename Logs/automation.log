@@ -1,0 +1,411 @@
+17:08:2021 06:17:39 PM - root - INFO - ************test_LoginPageTitle*************
+17:08:2021 06:17:48 PM - root - INFO - ************Loaded URL*************
+17:08:2021 06:17:48 PM - root - INFO - ************Verifying LoginPage Title*************
+17:08:2021 06:17:48 PM - root - INFO - ************test_LoginPageTitle Passed*************
+17:08:2021 06:17:52 PM - root - INFO - ************test_Login*************
+17:08:2021 06:17:59 PM - root - INFO - ************Loaded URL*************
+17:08:2021 06:17:59 PM - root - INFO - ************input Username*************
+17:08:2021 06:18:00 PM - root - INFO - ************input Password*************
+17:08:2021 06:18:00 PM - root - INFO - ************clicking Login*************
+17:08:2021 06:18:11 PM - root - INFO - ************Login Successfull*************
+17:08:2021 06:18:11 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 06:18:11 PM - root - INFO - ************test_Login Failed*************
+17:08:2021 07:26:12 PM - root - INFO - ************Test_002_Login_DDT**************
+17:08:2021 07:26:12 PM - root - INFO - ************test_Login*************
+17:08:2021 07:26:19 PM - root - INFO - ************Loaded URL*************
+17:08:2021 07:26:19 PM - root - INFO - ************input Username*************
+17:08:2021 07:26:19 PM - root - INFO - ************input Password*************
+17:08:2021 07:26:19 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:26:25 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:26:25 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:26:25 PM - root - INFO - ************Passed*************
+17:08:2021 07:27:54 PM - root - INFO - ************Test_002_Login_DDT**************
+17:08:2021 07:27:54 PM - root - INFO - ************test_Login*************
+17:08:2021 07:28:00 PM - root - INFO - ************Loaded URL*************
+17:08:2021 07:28:00 PM - root - INFO - ************input Username*************
+17:08:2021 07:28:00 PM - root - INFO - ************input Password*************
+17:08:2021 07:28:01 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:28:05 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:28:05 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:28:05 PM - root - INFO - ************Passed*************
+17:08:2021 07:28:05 PM - root - INFO - **********test_Login_DDT Passed***********
+17:08:2021 07:28:09 PM - root - INFO - ************input Username*************
+17:08:2021 07:28:11 PM - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014327D2ABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d65568e33da66a22620b0d818c254b27/element
+17:08:2021 07:28:13 PM - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014327DC1A58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d65568e33da66a22620b0d818c254b27/element
+17:08:2021 07:28:15 PM - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014327E1CEF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d65568e33da66a22620b0d818c254b27/element
+17:08:2021 07:30:50 PM - root - INFO - ************Test_002_Login_DDT**************
+17:08:2021 07:30:50 PM - root - INFO - ************test_Login*************
+17:08:2021 07:30:57 PM - root - INFO - ************Loaded URL*************
+17:08:2021 07:30:57 PM - root - INFO - ************input Username*************
+17:08:2021 07:30:57 PM - root - INFO - ************input Password*************
+17:08:2021 07:30:57 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:31:03 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:31:03 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:31:03 PM - root - INFO - ************Passed*************
+17:08:2021 07:31:03 PM - root - INFO - ************input Username*************
+17:08:2021 07:32:10 PM - root - INFO - ************Test_002_Login_DDT**************
+17:08:2021 07:32:10 PM - root - INFO - ************test_Login*************
+17:08:2021 07:32:18 PM - root - INFO - ************Loaded URL*************
+17:08:2021 07:32:18 PM - root - INFO - ************input Username*************
+17:08:2021 07:32:18 PM - root - INFO - ************input Password*************
+17:08:2021 07:32:18 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:32:24 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:32:24 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:32:24 PM - root - INFO - ************Passed*************
+17:08:2021 07:37:24 PM - root - INFO - ************Test_002_Login_DDT**************
+17:08:2021 07:37:24 PM - root - INFO - ************test_Login*************
+17:08:2021 07:37:31 PM - root - INFO - ************Loaded URL*************
+17:08:2021 07:37:31 PM - root - INFO - ************input Username*************
+17:08:2021 07:37:31 PM - root - INFO - ************input Password*************
+17:08:2021 07:37:32 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:37:37 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:37:37 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:37:37 PM - root - INFO - ************Passed*************
+17:08:2021 07:41:30 PM - root - INFO - ************Test_002_Login_DDT**************
+17:08:2021 07:41:30 PM - root - INFO - ************test_Login*************
+17:08:2021 07:41:37 PM - root - INFO - ************Loaded URL*************
+17:08:2021 07:41:37 PM - root - INFO - ************input Username*************
+17:08:2021 07:41:38 PM - root - INFO - ************input Password*************
+17:08:2021 07:41:38 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:41:44 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:41:44 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:41:44 PM - root - INFO - ************Passed*************
+17:08:2021 07:41:47 PM - root - INFO - ************input Username*************
+17:08:2021 07:41:47 PM - root - INFO - ************input Password*************
+17:08:2021 07:41:47 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:41:48 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:41:48 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:41:48 PM - root - INFO - ************input Username*************
+17:08:2021 07:41:48 PM - root - INFO - ************input Password*************
+17:08:2021 07:41:48 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:41:49 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:41:49 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:41:49 PM - root - INFO - ************input Username*************
+17:08:2021 07:41:49 PM - root - INFO - ************input Password*************
+17:08:2021 07:41:50 PM - root - INFO - ************clicking Login*************
+17:08:2021 07:41:50 PM - root - INFO - ************Login Successfull*************
+17:08:2021 07:41:50 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 07:41:50 PM - root - INFO - **********test_Login_DDT Passed***********
+17:08:2021 07:41:52 PM - root - INFO - ***************test_Login_DDT completed***********************
+17:08:2021 10:30:18 PM - root - INFO - ************test_LoginPageTitle*************
+17:08:2021 10:30:25 PM - root - INFO - ************Loaded URL*************
+17:08:2021 10:30:25 PM - root - INFO - ************Verifying LoginPage Title*************
+17:08:2021 10:30:25 PM - root - INFO - ************test_LoginPageTitle Passed*************
+17:08:2021 10:30:29 PM - root - INFO - ************test_Login*************
+17:08:2021 10:30:36 PM - root - INFO - ************Loaded URL*************
+17:08:2021 10:30:36 PM - root - INFO - ************input Username*************
+17:08:2021 10:30:36 PM - root - INFO - ************input Password*************
+17:08:2021 10:30:36 PM - root - INFO - ************clicking Login*************
+17:08:2021 10:30:43 PM - root - INFO - ************Login Successfull*************
+17:08:2021 10:30:43 PM - root - INFO - ************Verifying HomePage Title*************
+17:08:2021 10:30:43 PM - root - INFO - ************test_Login Failed*************
+19:08:2021 11:21:01 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:21:01 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:21:01 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:21:13 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:21:13 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:21:13 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:21:13 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:21:13 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:21:13 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:21:13 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:21:13 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:21:13 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:21:40 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:21:40 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:21:40 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:21:48 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:21:48 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:21:48 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:21:48 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:21:48 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:21:48 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:21:48 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:21:48 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:21:48 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:21:53 AM - root - INFO - ************test_Login*************
+19:08:2021 11:21:53 AM - root - INFO - ************test_Login*************
+19:08:2021 11:21:53 AM - root - INFO - ************test_Login*************
+19:08:2021 11:22:01 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:22:01 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:22:01 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:22:01 AM - root - INFO - ************input Username*************
+19:08:2021 11:22:01 AM - root - INFO - ************input Username*************
+19:08:2021 11:22:01 AM - root - INFO - ************input Username*************
+19:08:2021 11:22:01 AM - root - INFO - ************input Password*************
+19:08:2021 11:22:01 AM - root - INFO - ************input Password*************
+19:08:2021 11:22:01 AM - root - INFO - ************input Password*************
+19:08:2021 11:22:01 AM - root - INFO - ************clicking Login*************
+19:08:2021 11:22:01 AM - root - INFO - ************clicking Login*************
+19:08:2021 11:22:01 AM - root - INFO - ************clicking Login*************
+19:08:2021 11:22:06 AM - root - INFO - ************Login Successfull*************
+19:08:2021 11:22:06 AM - root - INFO - ************Login Successfull*************
+19:08:2021 11:22:06 AM - root - INFO - ************Login Successfull*************
+19:08:2021 11:22:06 AM - root - INFO - ************Verifying HomePage Title*************
+19:08:2021 11:22:06 AM - root - INFO - ************Verifying HomePage Title*************
+19:08:2021 11:22:06 AM - root - INFO - ************Verifying HomePage Title*************
+19:08:2021 11:22:07 AM - root - INFO - ************test_Login Failed*************
+19:08:2021 11:22:07 AM - root - INFO - ************test_Login Failed*************
+19:08:2021 11:22:07 AM - root - INFO - ************test_Login Failed*************
+19:08:2021 11:38:58 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:38:58 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:38:58 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:39:06 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:39:06 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:39:06 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:39:06 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:39:06 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:39:06 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:39:06 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:39:06 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:39:06 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:39:11 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:39:11 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:39:11 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:39:18 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:39:18 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:39:18 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:39:18 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:39:18 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:39:18 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:39:18 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:39:18 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:39:18 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:41:09 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:41:09 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:41:09 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:41:17 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:41:17 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:41:17 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:41:17 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:41:17 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:41:17 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:41:17 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:41:17 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:41:17 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:41:21 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:41:21 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:41:21 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:41:29 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:41:29 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:41:29 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:41:29 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:41:29 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:41:29 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:41:29 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:41:29 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:41:29 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:44:45 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:44:45 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:44:45 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:44:54 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:44:54 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:44:54 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:44:54 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:44:54 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:44:54 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:44:54 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:44:54 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:44:54 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:44:58 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:44:58 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:44:58 AM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 11:45:13 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:45:13 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:45:13 AM - root - INFO - ************Loaded URL*************
+19:08:2021 11:45:13 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:45:13 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:45:13 AM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 11:45:13 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:45:13 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 11:45:13 AM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:02:10 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:02:10 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:02:10 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:02:10 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:02:10 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:02:19 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:02:19 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:02:19 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:02:19 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:02:19 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:02:19 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:02:19 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:02:19 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:02:19 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:02:19 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:02:19 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:02:19 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:02:19 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:02:19 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:02:19 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:02:23 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:02:23 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:02:23 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:02:23 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:02:23 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:02:42 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:02:42 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:02:42 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:02:42 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:02:42 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:02:42 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:02:42 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:02:42 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:02:42 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:02:42 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:24:38 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:24:38 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:24:38 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:24:38 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:24:38 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:24:44 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:24:44 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:24:44 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:24:44 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:24:44 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:24:44 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:24:44 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:24:44 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:24:44 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:24:44 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:24:44 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:24:44 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:24:44 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:24:44 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:24:44 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:24:48 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:24:48 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:24:48 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:24:48 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:24:48 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:25:05 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:25:05 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:25:05 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:25:05 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:25:05 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:25:05 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:25:05 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:25:05 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:25:05 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:25:05 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:50:24 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:50:24 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:50:24 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:50:24 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:50:24 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:50:31 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:50:31 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:50:31 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:50:31 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:50:31 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:50:31 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:50:31 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:50:31 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:50:31 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:50:31 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:50:31 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:50:31 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:50:31 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:50:31 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:50:31 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:50:37 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:50:37 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:50:37 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:50:37 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:50:37 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:50:49 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:50:49 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:50:49 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:50:49 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:50:49 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:50:49 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:50:49 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:50:49 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:50:49 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:50:49 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:50:53 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:50:53 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:50:53 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:50:53 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:50:53 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:51:04 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:51:04 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:51:04 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:51:04 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:51:04 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:51:04 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:51:04 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:51:04 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:51:04 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:51:04 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:51:05 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:51:05 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:51:05 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:51:05 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:51:05 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:51:05 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:51:05 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:51:05 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:51:05 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:51:05 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:57:00 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:57:00 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:57:00 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:57:00 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:57:00 PM - root - INFO - ************test_LoginPageTitle*************
+19:08:2021 12:57:08 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:57:08 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:57:08 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:57:08 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:57:08 PM - root - INFO - ************Loaded URL*************
+19:08:2021 12:57:08 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:57:08 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:57:08 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:57:08 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:57:08 PM - root - INFO - ************Verifying LoginPage Title*************
+19:08:2021 12:57:08 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:57:08 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:57:08 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:57:08 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:57:08 PM - root - INFO - ************test_LoginPageTitle Passed*************
+19:08:2021 12:57:13 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:57:13 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:57:13 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:57:13 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:57:13 PM - root - INFO - ************* Test_003_AddCustomer **********
+19:08:2021 12:57:33 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:57:33 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:57:33 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:57:33 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:57:33 PM - root - INFO - ************* Login succesful **********
+19:08:2021 12:57:33 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:57:33 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:57:33 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:57:33 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:57:33 PM - root - INFO - ******* Starting Add Customer Test **********
+19:08:2021 12:57:37 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:57:37 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:57:37 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:57:37 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:57:37 PM - root - INFO - ************* Providing customer info **********
+19:08:2021 12:57:49 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:57:49 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:57:49 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:57:49 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:57:49 PM - root - INFO - ************* Saving customer info **********
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer validation started *****************
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:57:49 PM - root - INFO - ********* Add customer Test Passed *********
+19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
+19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
