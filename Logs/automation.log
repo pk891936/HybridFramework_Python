@@ -409,3 +409,34 @@
 19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
 19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
 19:08:2021 12:57:50 PM - root - INFO - ******* Ending Add customer test **********
+20:08:2021 03:57:13 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 03:57:13 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 03:57:13 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 03:57:13 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 03:57:13 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 03:59:18 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 03:59:18 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 03:59:18 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 03:59:18 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 03:59:18 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 04:00:36 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 04:00:36 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 04:00:36 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 04:00:36 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 04:00:36 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 04:02:22 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 04:02:22 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 04:02:22 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 04:02:22 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 04:02:22 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 04:11:37 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 04:11:37 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 04:12:23 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 04:12:23 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 04:12:45 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 04:12:45 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 04:16:51 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 04:16:51 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 04:16:52 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 04:16:52 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 04:16:53 PM - root - INFO - ***************GET:Final Student Details*****************
