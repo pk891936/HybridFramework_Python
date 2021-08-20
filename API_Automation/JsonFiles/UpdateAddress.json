@@ -1,0 +1,39 @@
+{
+  "Permanent_Address": {
+    "House_Number": "3-604",
+    "City": "Tadipatri",
+    "State": "AP",
+    "Country": "India",
+    "PhoneNumber": [
+      {
+        "Std_Code": "sample string 1",
+        "Home": "sample string 2",
+        "Mobile": "sample string 3"
+      },
+      {
+        "Std_Code": "sample string 1",
+        "Home": "sample string 2",
+        "Mobile": "sample string 3"
+      }
+    ]
+  },
+  "Current_Address": {
+    "House_Number": "3-604",
+    "City": "Tadipatri",
+    "State": "AP",
+    "Country": "India",
+    "PhoneNumber": [
+      {
+        "Std_Code": "sample string 1",
+        "Home": "sample string 2",
+        "Mobile": "sample string 3"
+      },
+      {
+        "Std_Code": "sample string 1",
+        "Home": "sample string 2",
+        "Mobile": "sample string 3"
+      }
+    ]
+  },
+  "stId": "445722"
+}
