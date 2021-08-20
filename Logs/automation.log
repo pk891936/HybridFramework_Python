@@ -440,3 +440,59 @@
 20:08:2021 04:16:52 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
 20:08:2021 04:16:52 PM - root - INFO - ***************Post:Add Student Address*****************
 20:08:2021 04:16:53 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 05:40:10 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 05:40:10 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 05:40:10 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 05:40:10 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 05:40:10 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 05:40:11 PM - root - INFO - ***************DELETE: Student Details*****************
+20:08:2021 05:45:32 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 05:45:32 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 05:45:33 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 05:45:34 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 05:45:34 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 05:45:35 PM - root - INFO - ***************DELETE: Student Details*****************
+20:08:2021 05:45:35 PM - root - INFO - {"Message":"The requested resource does not support http method 'DELETE'."}
+20:08:2021 05:45:35 PM - root - INFO - ***************Test Case Completed*****************
+20:08:2021 05:55:01 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 05:55:01 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 05:55:04 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 05:55:05 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 05:55:05 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 05:55:05 PM - root - INFO - ***************PUT:Update Student Address*****************
+20:08:2021 05:56:44 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 05:56:44 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 05:56:45 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 05:56:45 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 05:56:45 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 05:56:45 PM - root - INFO - ***************PUT:Update Student Address*****************
+20:08:2021 05:56:45 PM - root - INFO - {"status":"true","msg":"Add  data success"}
+20:08:2021 05:59:35 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 05:59:35 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 05:59:35 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 05:59:35 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 05:59:35 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 05:59:35 PM - root - INFO - ***************PUT:Update Student Address*****************
+20:08:2021 05:59:35 PM - root - INFO - {"status":"true","msg":"Add  data success"}
+20:08:2021 05:59:35 PM - root - INFO - ***************GET:Final Student Details After Update*****************
+20:08:2021 05:59:35 PM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18537,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"445742"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445742"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445742"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445742"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445742"}]}}
+20:08:2021 06:00:51 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 06:00:51 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 06:00:51 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 06:00:51 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 06:00:52 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 06:00:53 PM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18538,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"445743"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445743"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445743"}]}}
+20:08:2021 06:00:53 PM - root - INFO - ***************PUT:Update Student Address*****************
+20:08:2021 06:00:53 PM - root - INFO - {"status":"true","msg":"Add  data success"}
+20:08:2021 06:00:53 PM - root - INFO - ***************GET:Final Student Details After Update*****************
+20:08:2021 06:00:53 PM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18538,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"445743"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445743"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445743"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445743"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445743"}]}}
+20:08:2021 06:03:08 PM - root - INFO - ***************test_AddNew_Student*****************
+20:08:2021 06:03:08 PM - root - INFO - ***************Post:Add New Student*****************
+20:08:2021 06:03:08 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+20:08:2021 06:03:08 PM - root - INFO - ***************Post:Add Student Address*****************
+20:08:2021 06:03:08 PM - root - INFO - ***************GET:Final Student Details*****************
+20:08:2021 06:03:08 PM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18539,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"445745"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"}]}}
+20:08:2021 06:03:08 PM - root - INFO - ***************PUT:Update Student Address*****************
+20:08:2021 06:03:09 PM - root - INFO - {"status":"true","msg":"Add  data success"}
+20:08:2021 06:03:09 PM - root - INFO - ***************GET:Final Student Details After Update*****************
+20:08:2021 06:03:09 PM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18539,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"445745"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"}]}}
