@@ -2,8 +2,22 @@ from selenium import webdriver
 import pytest
 from utilities.readProperties import readConfig
 
+@pytest.yield_fixture(scope="class")
+def invoke_browser(request,browser):
+    driver = setup(browser)
+
+    # Set class attribute and assign the variable
+    if request.cls is not None:
+        request.cls.driver = driver
+    yield driver
+    driver.quit()
+
+
 @pytest.fixture()
 def setup(browser):
+    def __init__(self,browser):
+        self.browser = browser
+
     if browser == 'chrome':
         browserPath = readConfig.getBrowserPath("chrome")
         driver = webdriver.Chrome(browserPath)
@@ -11,7 +25,7 @@ def setup(browser):
         driver.maximize_window()
     elif browser == 'firefox':
         browserPath = readConfig.getBrowserPath("firefox")
-        driver = webdriver.Firefox()
+        driver = webdriver.Firefox(executable_path=browserPath)
         print("*************Launching Firefox Browser**************")
         driver.maximize_window()
     elif browser == 'edge':

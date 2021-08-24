@@ -496,3 +496,1727 @@
 20:08:2021 06:03:09 PM - root - INFO - {"status":"true","msg":"Add  data success"}
 20:08:2021 06:03:09 PM - root - INFO - ***************GET:Final Student Details After Update*****************
 20:08:2021 06:03:09 PM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18539,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"445745"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"445745"}]}}
+24:08:2021 10:28:49 AM - root - INFO - ***************test_AddNew_Student*****************
+24:08:2021 10:28:49 AM - root - INFO - ***************Post:Add New Student*****************
+24:08:2021 10:28:49 AM - root - INFO - ***************Post:Add Student Technical Skills*****************
+24:08:2021 10:28:49 AM - root - INFO - ***************Post:Add Student Address*****************
+24:08:2021 10:28:49 AM - root - INFO - ***************GET:Final Student Details*****************
+24:08:2021 10:28:50 AM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18730,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"449388"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"449388"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"449388"}]}}
+24:08:2021 10:28:50 AM - root - INFO - ***************PUT:Update Student Address*****************
+24:08:2021 10:28:50 AM - root - INFO - {"status":"true","msg":"Add  data success"}
+24:08:2021 10:28:50 AM - root - INFO - ***************GET:Final Student Details After Update*****************
+24:08:2021 10:28:50 AM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":18730,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"449388"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"449388"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"449388"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"449388"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"449388"}]}}
+24:08:2021 10:41:36 AM - root - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:41:36 AM - root - INFO - ************test_Login*************
+24:08:2021 10:43:35 AM - root - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:43:35 AM - root - INFO - ************test_Login*************
+24:08:2021 10:43:43 AM - root - INFO - ************Loaded URL*************
+24:08:2021 10:43:43 AM - root - INFO - ************input Username*************
+24:08:2021 10:43:44 AM - root - INFO - ************input Password*************
+24:08:2021 10:43:44 AM - root - INFO - ************clicking Login*************
+24:08:2021 10:43:51 AM - root - INFO - ************Loaded URL*************
+24:08:2021 10:43:51 AM - root - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:43:51 AM - root - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:43:55 AM - root - INFO - ************Login Successfull*************
+24:08:2021 10:43:55 AM - root - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:43:55 AM - root - INFO - ************test_Login Failed*************
+24:08:2021 12:00:49 PM - root - INFO - ************test_LoginPageTitle*************
+24:08:2021 12:00:49 PM - root - INFO - ************test_Login*************
+24:08:2021 12:00:58 PM - root - INFO - ************Loaded URL*************
+24:08:2021 12:00:59 PM - root - INFO - ************Verifying LoginPage Title*************
+24:08:2021 12:00:59 PM - root - INFO - ************Loaded URL*************
+24:08:2021 12:00:59 PM - root - INFO - ************input Username*************
+24:08:2021 12:00:59 PM - root - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 12:00:59 PM - root - INFO - ************input Password*************
+24:08:2021 12:00:59 PM - root - INFO - ************clicking Login*************
+24:08:2021 12:01:15 PM - root - INFO - ************Login Successfull*************
+24:08:2021 12:01:15 PM - root - INFO - ************Verifying HomePage Title*************
+24:08:2021 12:01:15 PM - root - INFO - ************test_Login Failed*************
+24:08:2021 04:10:29 PM - root - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 04:10:43 PM - root - INFO - ************* Login succesful **********
+24:08:2021 04:10:43 PM - root - INFO - ******* Starting Add Customer Test **********
+24:08:2021 04:10:47 PM - root - INFO - ************* Providing customer info **********
+24:08:2021 04:10:59 PM - root - INFO - ************* Saving customer info **********
+24:08:2021 04:10:59 PM - root - INFO - ********* Add customer validation started *****************
+24:08:2021 04:17:03 PM - root - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 04:17:16 PM - root - INFO - ************* Login succesful **********
+24:08:2021 04:17:16 PM - root - INFO - ******* Starting Add Customer Test **********
+24:08:2021 04:17:24 PM - root - INFO - ************* Providing customer info **********
+24:08:2021 04:17:36 PM - root - INFO - ************* Saving customer info **********
+24:08:2021 04:17:36 PM - root - INFO - ********* Add customer validation started *****************
+24:08:2021 04:17:37 PM - root - INFO - ********* Add customer Test Passed *********
+24:08:2021 04:17:37 PM - root - INFO - ******* Ending Add customer test **********
+24:08:2021 09:43:58 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 09:44:08 PM - root - INFO - ************input Username*************
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:44:08 PM - root - INFO - ************input Password*************
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:44:08 PM - root - INFO - ************clicking Login*************
+24:08:2021 09:44:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:44:51 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:44:51 PM - root - INFO - ************Login Successfull*************
+24:08:2021 09:44:54 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 09:44:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:44:54 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:44:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:45:05 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:45:05 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:45:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:45:14 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 09:45:14 PM - SeleniumDriver - INFO - Element not found
+24:08:2021 09:45:14 PM - SeleniumDriver - INFO - Cannot send data to the element
+24:08:2021 09:46:14 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 09:46:22 PM - root - INFO - ************input Username*************
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:46:22 PM - root - INFO - ************input Password*************
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:46:22 PM - root - INFO - ************clicking Login*************
+24:08:2021 09:46:22 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:30 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:46:30 PM - root - INFO - ************Login Successfull*************
+24:08:2021 09:46:33 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 09:46:33 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:33 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:46:33 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:35 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:46:35 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 09:46:35 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:35 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:46:36 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:49:24 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 09:49:32 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 09:49:32 PM - root - INFO - ************input Username*************
+24:08:2021 09:49:32 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:32 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:32 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:49:32 PM - root - INFO - ************input Password*************
+24:08:2021 09:49:33 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:33 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:33 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:49:33 PM - root - INFO - ************clicking Login*************
+24:08:2021 09:49:33 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:39 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:49:39 PM - root - INFO - ************Login Successfull*************
+24:08:2021 09:49:42 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 09:49:42 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:42 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:49:42 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:49:43 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 09:49:43 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:44 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:44 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:49:44 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:49:44 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:49:54 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 09:50:04 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 09:50:04 PM - root - INFO - ************input Username*************
+24:08:2021 09:50:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:05 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:05 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:50:05 PM - root - INFO - ************input Password*************
+24:08:2021 09:50:05 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:05 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:05 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:50:05 PM - root - INFO - ************clicking Login*************
+24:08:2021 09:50:05 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:50:15 PM - root - INFO - ************Login Successfull*************
+24:08:2021 09:50:18 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 09:50:18 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:18 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:50:18 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:50:21 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:50:21 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:50:22 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:56:16 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 09:56:29 PM - root - INFO - ************input Username*************
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:56:29 PM - root - INFO - ************input Password*************
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:56:29 PM - root - INFO - ************clicking Login*************
+24:08:2021 09:56:29 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:39 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:56:39 PM - root - INFO - ************Login Successfull*************
+24:08:2021 09:56:42 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 09:56:42 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:42 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:56:42 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:44 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:56:44 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 09:56:44 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:44 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:45 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:56:45 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:45 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:56:50 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 09:56:50 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:56:55 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 09:57:00 PM - root - INFO - ************input Username*************
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:57:00 PM - root - INFO - ************input Password*************
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:57:00 PM - root - INFO - ************clicking Login*************
+24:08:2021 09:57:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:57:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 09:57:11 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 09:57:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:57:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:57:14 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 09:57:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:15 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:57:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:15 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 09:57:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 09:57:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 09:57:20 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 09:57:20 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:02:45 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:02:50 PM - SeleniumDriver - ERROR - Navigation failed
+24:08:2021 10:02:50 PM - root - INFO - ************input Username*************
+24:08:2021 10:02:54 PM - SeleniumDriver - INFO - Element not found
+24:08:2021 10:02:54 PM - SeleniumDriver - INFO - Cannot send data to the element
+24:08:2021 10:02:54 PM - root - INFO - ************input Password*************
+24:08:2021 10:03:02 PM - SeleniumDriver - INFO - Element not found
+24:08:2021 10:03:02 PM - SeleniumDriver - INFO - Cannot send data to the element
+24:08:2021 10:03:02 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:03:32 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:03:38 PM - SeleniumDriver - ERROR - Navigation failed
+24:08:2021 10:03:38 PM - root - INFO - ************input Username*************
+24:08:2021 10:03:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:03:38 PM - root - INFO - ************input Password*************
+24:08:2021 10:03:39 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:39 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:39 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:03:39 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:03:39 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:03:48 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:03:51 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:03:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:51 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:03:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:53 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:03:53 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:03:53 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:53 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:53 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:03:53 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:03:53 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:03:58 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:03:58 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:04:01 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:05:38 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:05:46 PM - root - INFO - ************input Username*************
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:05:46 PM - root - INFO - ************input Password*************
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:05:46 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:05:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:05 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:05 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:06:08 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:06:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:09 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:06:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:06:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:10 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:15 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:06:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:17 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:06:21 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:06:27 PM - root - INFO - ************input Username*************
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:06:27 PM - root - INFO - ************input Password*************
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:06:27 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:06:27 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:30 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:30 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:06:33 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:06:33 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:33 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:33 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:35 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:35 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:06:35 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:35 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:35 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:06:35 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:36 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:36 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:06:36 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:36 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:06:41 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:06:41 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:06:43 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:08:36 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:08:36 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:08:36 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:08:36 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:08:36 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:08:36 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:08:36 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:08:48 PM - root - INFO - ************input Username*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Username*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Username*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Username*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Username*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Username*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Username*************
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - root - INFO - ************input Password*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Password*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Password*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Password*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Password*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Password*************
+24:08:2021 10:08:48 PM - root - INFO - ************input Password*************
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:08:48 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:08:48 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:08:48 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:08:48 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:08:48 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:08:48 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:08:48 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:08:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:08 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:08 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:11 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:09:11 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:09:11 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:09:11 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:09:11 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:09:11 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:09:11 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:13 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:09:13 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:09:13 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:09:13 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:09:13 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:09:13 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:09:13 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:13 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:14 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:21 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:09:21 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:09:21 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:09:21 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:09:21 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:09:21 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:09:21 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:09:23 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:09:23 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:09:23 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:09:23 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:09:23 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:09:23 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:09:23 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:09:34 PM - root - INFO - ************input Username*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Username*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Username*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Username*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Username*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Username*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Username*************
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - root - INFO - ************input Password*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Password*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Password*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Password*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Password*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Password*************
+24:08:2021 10:09:34 PM - root - INFO - ************input Password*************
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:34 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:09:34 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:09:34 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:09:34 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:09:34 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:09:34 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:09:34 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:34 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:49 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:49 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:49 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:49 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:49 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:49 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:49 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:09:52 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:09:52 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:09:52 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:09:52 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:09:52 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:09:52 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:09:52 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:52 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:56 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:09:56 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:09:56 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:09:56 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:09:56 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:09:56 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:09:56 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:56 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:09:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:09:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:10:02 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:10:04 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:10:04 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:10:04 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:10:04 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:10:04 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:10:04 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:10:04 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:12:51 PM - Test_001_Login - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:12:51 PM - Test_001_Login - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:12:51 PM - Test_001_Login - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:12:51 PM - Test_001_Login - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:12:51 PM - Test_001_Login - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:12:51 PM - Test_001_Login - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:12:51 PM - Test_001_Login - INFO - ************test_LoginPageTitle*************
+24:08:2021 10:12:52 PM - Test_001_Login - INFO - ************test_Login*************
+24:08:2021 10:12:52 PM - Test_001_Login - INFO - ************test_Login*************
+24:08:2021 10:12:52 PM - Test_001_Login - INFO - ************test_Login*************
+24:08:2021 10:12:52 PM - Test_001_Login - INFO - ************test_Login*************
+24:08:2021 10:12:52 PM - Test_001_Login - INFO - ************test_Login*************
+24:08:2021 10:12:52 PM - Test_001_Login - INFO - ************test_Login*************
+24:08:2021 10:12:52 PM - Test_001_Login - INFO - ************test_Login*************
+24:08:2021 10:13:36 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:36 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:36 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:36 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:36 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:36 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:36 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:36 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:36 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:36 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:36 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:36 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:36 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:36 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:37 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:37 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:37 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:37 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:37 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:37 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:37 PM - Test_001_Login - INFO - ************Loaded URL*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************Verifying LoginPage Title*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************test_LoginPageTitle Passed*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Username*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Username*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Username*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Username*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Username*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Username*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Username*************
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Password*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Password*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Password*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Password*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Password*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Password*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************input Password*************
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************clicking Login*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************clicking Login*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************clicking Login*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************clicking Login*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************clicking Login*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************clicking Login*************
+24:08:2021 10:13:40 PM - Test_001_Login - INFO - ************clicking Login*************
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:40 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:44 PM - Test_003_AddCustomer - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 10:13:44 PM - Test_003_AddCustomer - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 10:13:44 PM - Test_003_AddCustomer - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 10:13:44 PM - Test_003_AddCustomer - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 10:13:44 PM - Test_003_AddCustomer - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 10:13:44 PM - Test_003_AddCustomer - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 10:13:44 PM - Test_003_AddCustomer - INFO - ************* Test_003_AddCustomer **********
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Username*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Username*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Username*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Username*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Username*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Username*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Username*************
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Password*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Password*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Password*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Password*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Password*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Password*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************input Password*************
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************clicking Login*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************clicking Login*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************clicking Login*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************clicking Login*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************clicking Login*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************clicking Login*************
+24:08:2021 10:13:51 PM - Test_003_AddCustomer - INFO - ************clicking Login*************
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:51 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:13:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:56 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:56 PM - Test_001_Login - INFO - ************Login Successfull*************
+24:08:2021 10:13:56 PM - Test_001_Login - INFO - ************Login Successfull*************
+24:08:2021 10:13:56 PM - Test_001_Login - INFO - ************Login Successfull*************
+24:08:2021 10:13:56 PM - Test_001_Login - INFO - ************Login Successfull*************
+24:08:2021 10:13:56 PM - Test_001_Login - INFO - ************Login Successfull*************
+24:08:2021 10:13:56 PM - Test_001_Login - INFO - ************Login Successfull*************
+24:08:2021 10:13:56 PM - Test_001_Login - INFO - ************Login Successfull*************
+24:08:2021 10:13:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:57 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:13:57 PM - Test_003_AddCustomer - INFO - ************Login Successfull*************
+24:08:2021 10:13:57 PM - Test_003_AddCustomer - INFO - ************Login Successfull*************
+24:08:2021 10:13:57 PM - Test_003_AddCustomer - INFO - ************Login Successfull*************
+24:08:2021 10:13:57 PM - Test_003_AddCustomer - INFO - ************Login Successfull*************
+24:08:2021 10:13:57 PM - Test_003_AddCustomer - INFO - ************Login Successfull*************
+24:08:2021 10:13:57 PM - Test_003_AddCustomer - INFO - ************Login Successfull*************
+24:08:2021 10:13:57 PM - Test_003_AddCustomer - INFO - ************Login Successfull*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************Verifying HomePage Title*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************test_HomePage title Passed*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************test_HomePage title Passed*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************test_HomePage title Passed*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************test_HomePage title Passed*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************test_HomePage title Passed*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************test_HomePage title Passed*************
+24:08:2021 10:13:59 PM - Test_001_Login - INFO - ************test_HomePage title Passed*************
+24:08:2021 10:14:00 PM - Test_003_AddCustomer - INFO - ******* Starting Add Customer Test **********
+24:08:2021 10:14:00 PM - Test_003_AddCustomer - INFO - ******* Starting Add Customer Test **********
+24:08:2021 10:14:00 PM - Test_003_AddCustomer - INFO - ******* Starting Add Customer Test **********
+24:08:2021 10:14:00 PM - Test_003_AddCustomer - INFO - ******* Starting Add Customer Test **********
+24:08:2021 10:14:00 PM - Test_003_AddCustomer - INFO - ******* Starting Add Customer Test **********
+24:08:2021 10:14:00 PM - Test_003_AddCustomer - INFO - ******* Starting Add Customer Test **********
+24:08:2021 10:14:00 PM - Test_003_AddCustomer - INFO - ******* Starting Add Customer Test **********
+24:08:2021 10:14:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:00 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:01 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:03 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:14:03 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:14:03 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:14:03 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:14:03 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:14:03 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:14:03 PM - root - INFO - ************* SearchCustomerByEmail_004 **********
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:04 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:08 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:08 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:08 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:08 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:09 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:09 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:09 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:09 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:09 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:09 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:09 PM - Test_003_AddCustomer - INFO - ************* Providing customer info **********
+24:08:2021 10:14:09 PM - Test_003_AddCustomer - INFO - ************* Providing customer info **********
+24:08:2021 10:14:09 PM - Test_003_AddCustomer - INFO - ************* Providing customer info **********
+24:08:2021 10:14:09 PM - Test_003_AddCustomer - INFO - ************* Providing customer info **********
+24:08:2021 10:14:09 PM - Test_003_AddCustomer - INFO - ************* Providing customer info **********
+24:08:2021 10:14:09 PM - Test_003_AddCustomer - INFO - ************* Providing customer info **********
+24:08:2021 10:14:09 PM - Test_003_AddCustomer - INFO - ************* Providing customer info **********
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:09 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:10 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:11 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:12 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:12 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:12 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:12 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:12 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:12 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:12 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:15 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:14:15 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:14:15 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:14:15 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:14:15 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:14:15 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:14:15 PM - root - INFO - ******* Starting Search Customer By Email **********
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:15 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:14:17 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:14:17 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:14:17 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:14:17 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:14:17 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:14:17 PM - root - INFO - ************* searching customer by emailID **********
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:17 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:19 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:23 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:24 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:24 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:24 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:24 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:24 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:24 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:24 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:25 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:25 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:25 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:25 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:25 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:25 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:25 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ************* Saving customer info **********
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ************* Saving customer info **********
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ************* Saving customer info **********
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ************* Saving customer info **********
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ************* Saving customer info **********
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ************* Saving customer info **********
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ************* Saving customer info **********
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ********* Add customer validation started *****************
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ********* Add customer validation started *****************
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ********* Add customer validation started *****************
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ********* Add customer validation started *****************
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ********* Add customer validation started *****************
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ********* Add customer validation started *****************
+24:08:2021 10:14:25 PM - Test_003_AddCustomer - INFO - ********* Add customer validation started *****************
+24:08:2021 10:14:26 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:14:26 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:14:26 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:14:26 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:14:26 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:14:26 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:14:26 PM - root - INFO - ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+24:08:2021 10:14:26 PM - Test_003_AddCustomer - INFO - ********* Add customer Test Passed *********
+24:08:2021 10:14:26 PM - Test_003_AddCustomer - INFO - ********* Add customer Test Passed *********
+24:08:2021 10:14:26 PM - Test_003_AddCustomer - INFO - ********* Add customer Test Passed *********
+24:08:2021 10:14:26 PM - Test_003_AddCustomer - INFO - ********* Add customer Test Passed *********
+24:08:2021 10:14:26 PM - Test_003_AddCustomer - INFO - ********* Add customer Test Passed *********
+24:08:2021 10:14:26 PM - Test_003_AddCustomer - INFO - ********* Add customer Test Passed *********
+24:08:2021 10:14:26 PM - Test_003_AddCustomer - INFO - ********* Add customer Test Passed *********
+24:08:2021 10:14:28 PM - Test_003_AddCustomer - INFO - ******* Ending Add customer test **********
+24:08:2021 10:14:28 PM - Test_003_AddCustomer - INFO - ******* Ending Add customer test **********
+24:08:2021 10:14:28 PM - Test_003_AddCustomer - INFO - ******* Ending Add customer test **********
+24:08:2021 10:14:28 PM - Test_003_AddCustomer - INFO - ******* Ending Add customer test **********
+24:08:2021 10:14:28 PM - Test_003_AddCustomer - INFO - ******* Ending Add customer test **********
+24:08:2021 10:14:28 PM - Test_003_AddCustomer - INFO - ******* Ending Add customer test **********
+24:08:2021 10:14:28 PM - Test_003_AddCustomer - INFO - ******* Ending Add customer test **********
+24:08:2021 10:14:30 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:14:30 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:14:30 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:14:30 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:14:30 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:14:30 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:14:30 PM - root - INFO - ************* SearchCustomerByName_005 **********
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Navigated to https://admin-demo.nopcommerce.com
+24:08:2021 10:14:37 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Username*************
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:37 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:37 PM - root - INFO - ************input Password*************
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:37 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:38 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:38 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:38 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:38 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:38 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:38 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:38 PM - root - INFO - ************clicking Login*************
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:38 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:43 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:43 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:43 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:43 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:43 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:43 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:43 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:43 PM - root - INFO - ************Login Successfull*************
+24:08:2021 10:14:46 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:14:46 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:14:46 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:14:46 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:14:46 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:14:46 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:14:46 PM - root - INFO - ******* Starting Search Customer By Name **********
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:46 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:48 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:14:48 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:14:48 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:14:48 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:14:48 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:14:48 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:14:48 PM - root - INFO - ************* searching customer by Name **********
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:48 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Data entered
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:49 PM - SeleniumDriver - INFO - Element clicked
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Elements found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:54 PM - SeleniumDriver - INFO - Element found
+24:08:2021 10:14:56 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:14:56 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:14:56 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:14:56 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:14:56 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:14:56 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 
+24:08:2021 10:14:56 PM - root - INFO - ***************  TC_SearchCustomerByName_005 Finished  *********** 

@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-class LoginPage:
+class LoginPage():
     textbox_username_id = "Email"
     textbox_password_id = "Password"
     button_login_xpath  = "//button[@class='button-1 login-button']"

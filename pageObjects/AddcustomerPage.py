@@ -64,6 +64,28 @@ class AddCustomer:
         #self.listitem.click()
         self.driver.execute_script("arguments[0].click();", self.listitem)
 
+    def setCustomerRoles_Action(self,role):
+        self.driver.find_element_by_xpath(self.txtcustomerRoles_xpath).click()
+        time.sleep(3)
+        if role == 'Registered':
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemRegistered_xpath)
+        elif role=='Administrators':
+            self.listitem=self.driver.find_element_by_xpath(self.lstitemAdministrators_xpath)
+        elif role=='Guests':
+            # Here user can be Registered( or) Guest, only one
+            time.sleep(3)
+            self.driver.find_element_by_xpath("//*[@id='SelectedCustomerRoleIds_taglist']/li/span[2]").click()
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemGuests_xpath)
+        elif role=='Registered':
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemRegistered_xpath)
+        elif role=='Vendors':
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemVendors_xpath)
+        else:
+            self.listitem = self.driver.find_element_by_xpath(self.lstitemGuests_xpath)
+        time.sleep(3)
+        #self.listitem.click()
+        self.driver.execute_script("arguments[0].click();", self.listitem)
+
     def setManagerOfVendor(self,value):
         drp=Select(self.driver.find_element_by_xpath(self.drpmgrOfVendor_xpath))
         drp.select_by_visible_text(value)

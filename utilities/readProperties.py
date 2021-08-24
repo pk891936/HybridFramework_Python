@@ -15,6 +15,11 @@ class readConfig():
         return TestDataPath
 
     @staticmethod
+    def getScreenshotPath():
+        browserPath = config.get('testdataInfo', 'Screenshot_Path')
+        return browserPath
+
+    @staticmethod
     def getApplicationURL():
         url = config.get('commonInfo','baseURL')
         return url
@@ -28,3 +33,13 @@ class readConfig():
     def getPassword():
         password = config.get('commonInfo', 'password')
         return password
+
+    @staticmethod
+    def getAPI_URL():
+        url = config.get('commonInfo', 'baseAPI_URL')
+        return url
+
+    @staticmethod
+    def getJsonFilePath():
+        JsonFilePath = config.get('testdataInfo', 'JsonFilePath')
+        return JsonFilePath
