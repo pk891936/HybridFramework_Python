@@ -1,4 +1,5 @@
-import logging,inspect
+import logging,inspect,sys
+from logging.handlers import RotatingFileHandler
 class logGenerator():
     @staticmethod
     def logGen():
@@ -6,7 +7,7 @@ class logGenerator():
         logger.setLevel(logging.INFO)
 
         fileHandler = logging.FileHandler('.\\Logs\\automation.log', mode='a')
-        #fileHandler = logging.StreamHandler()
+        #consoleHandler = logging.StreamHandler(sys.stdout)
         print("Logger file created")
         fileHandler.setLevel(logging.INFO)
 
@@ -15,6 +16,7 @@ class logGenerator():
         fileHandler.setFormatter(formatter)
 
         logger.addHandler(fileHandler)
+        #logger.addHandler(consoleHandler)
         #logging.basicConfig(filename=".\\Logs\\automation.log",level=logging.INFO, format="%(asctime)s:%(levename)s:%(message)s", datefmt="%d/%m/%Y %I:%M:%S %p")
         #logger= logging.getLogger()
         #logger.setLevel(logging.INFO)
@@ -41,4 +43,23 @@ class logGenerator():
 
         # Step5: assign console to logger
         logger.addHandler(lhandler)
+        return logger
+
+    @staticmethod
+    def log_utility_1(loglevel=logging.INFO):
+        # Mention logger name
+        loggername = inspect.stack()[1][3]
+
+        logger = logging.getLogger('')
+        logger.setLevel(logging.INFO)
+        format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+
+        ch = logging.StreamHandler(sys.stdout)
+        ch.setFormatter(format)
+        logger.addHandler(ch)
+
+        fh = RotatingFileHandler('.\\Logs\\automation.log', mode='a', maxBytes=(1048576 * 5), backupCount=7)
+        fh.setFormatter(format)
+        logger.addHandler(fh)
+
         return logger

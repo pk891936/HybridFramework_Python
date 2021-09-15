@@ -3,6 +3,7 @@ from selenium.webdriver.support.ui import Select
 from utilities.module_mapping import driver_mapping
 from selenium.webdriver.common.by import By
 
+
 class AddCustomer(driver_mapping):
     # Add customer Page
     lnkCustomers_menu_xpath = "//a[@href='#']//*[contains(text(),'Customers')]"
@@ -26,11 +27,9 @@ class AddCustomer(driver_mapping):
     txtAdminContent_xpath = "//textarea[@id='AdminComment']"
     btnSave_xpath = "//button[@name='save']"
 
-
     def __init__(self,driver_mapping):
-        super(AddCustomer, self).__init__(driver_mapping)
+        super().__init__(driver_mapping)
         self.driver = driver_mapping
-
 
     def setCustomerRoles(self,role):
         #self.driver.webScroll(self,"down")

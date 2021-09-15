@@ -3728,3 +3728,2123 @@ SeleniumDriver: 08/24/2021 10:14:54 PM: INFO: Elements found
 
 SeleniumDriver: 08/24/2021 10:14:54 PM: INFO: Element found
 
+Test_001_Login: 08/25/2021 09:12:36 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:12:37 AM: ERROR: Navigation failed
+
+Test_001_Login: 08/25/2021 09:12:37 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:12:40 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:12:40 AM: INFO: admin-demo.nopcommerce.com
+
+SeleniumDriver: 08/25/2021 09:12:40 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:12:43 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 09:12:43 AM: ERROR: Navigation failed
+
+Test_001_Login: 08/25/2021 09:12:43 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:12:46 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 09:12:47 AM: INFO: Element not found
+
+SeleniumDriver: 08/25/2021 09:12:47 AM: INFO: Cannot send data to the element
+
+Test_001_Login: 08/25/2021 09:12:47 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 09:12:59 AM: INFO: Element not found
+
+SeleniumDriver: 08/25/2021 09:12:59 AM: INFO: Cannot send data to the element
+
+Test_001_Login: 08/25/2021 09:12:59 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 09:13:11 AM: INFO: Element not found
+
+SeleniumDriver: 08/25/2021 09:13:11 AM: ERROR: Element not clicked
+
+Test_001_Login: 08/25/2021 09:13:11 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 09:13:14 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 09:13:27 AM: ERROR: Verify failed
+
+Test_001_Login: 08/25/2021 09:14:26 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:14:45 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:14:45 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:14:48 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:14:48 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 09:14:48 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:14:51 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 09:14:58 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:14:58 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:15:01 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 09:15:01 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:15:01 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:15:01 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:15:01 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 09:15:01 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:15:01 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:15:01 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:15:01 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 09:15:01 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:15:16 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 09:15:16 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 09:15:19 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 09:15:19 AM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/25/2021 09:15:19 AM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/25/2021 09:22:06 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:22:14 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:22:14 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:22:17 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:22:17 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 09:22:17 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:23:15 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:23:22 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:23:22 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:23:25 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:23:25 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 09:23:26 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:23:26 AM: ERROR: ************test_LoginPageTitle Failed*************
+
+Test_001_Login: 08/25/2021 09:23:32 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 09:23:41 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:23:41 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:23:44 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 09:23:44 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:23:44 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:23:44 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:23:44 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 09:23:44 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:23:44 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:23:44 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:23:44 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 09:23:44 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:23:51 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 09:23:51 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 09:23:54 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 09:23:54 AM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/25/2021 09:23:54 AM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/25/2021 09:31:12 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:31:25 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:31:25 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:31:28 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:31:28 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 09:31:28 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:31:28 AM: ERROR: ************test_LoginPageTitle Failed*************
+
+Test_001_Login: 08/25/2021 09:31:33 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 09:31:48 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:31:48 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:31:51 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 09:31:51 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:31:51 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:31:51 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:31:51 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 09:31:51 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:31:51 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:31:51 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:31:51 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 09:31:51 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:31:58 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 09:31:58 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 09:32:01 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 09:32:01 AM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/25/2021 09:32:01 AM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/25/2021 09:35:06 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:35:16 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:35:16 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:35:19 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:35:19 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 09:35:19 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:35:19 AM: ERROR: ************test_LoginPageTitle Failed*************
+
+Test_001_Login: 08/25/2021 09:35:23 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 09:35:30 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:35:30 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:35:33 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 09:35:34 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:35:34 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:35:34 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:35:34 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 09:35:34 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:35:34 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:35:34 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:35:34 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 09:35:34 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:35:42 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 09:35:42 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 09:35:45 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 09:35:45 AM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/25/2021 09:35:45 AM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/25/2021 09:41:39 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:41:47 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:41:47 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:41:50 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:41:50 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 09:41:50 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:41:52 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 09:41:59 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:41:59 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:42:02 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 09:42:03 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:42:03 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:42:03 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:42:03 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 09:42:03 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:42:03 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:42:03 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:42:03 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 09:42:03 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:42:10 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 09:42:10 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 09:42:13 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 09:42:13 AM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/25/2021 09:42:13 AM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/25/2021 09:44:23 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 09:44:30 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:44:30 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:44:33 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 09:44:33 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 09:44:36 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 09:44:38 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 09:44:46 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 09:44:46 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 09:44:49 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 09:44:49 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:44:49 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:44:49 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:44:49 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 09:44:49 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:44:49 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:44:49 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 09:44:49 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 09:44:49 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 09:44:53 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 09:44:53 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 09:44:56 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 09:44:56 AM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/25/2021 09:44:56 AM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/25/2021 10:17:38 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 10:17:46 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 10:17:46 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 10:17:49 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 10:17:49 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 10:17:52 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 10:17:54 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 10:18:02 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 10:18:02 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 10:18:05 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 10:18:05 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:18:05 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:18:05 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 10:18:05 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 10:18:05 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:18:05 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:18:05 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 10:18:05 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 10:18:05 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:18:12 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 10:18:12 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 10:18:15 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 10:18:15 AM: INFO: Dashboard / nopCommerce administration
+
+SeleniumDriver: 08/25/2021 10:18:15 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 10:23:05 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 10:23:12 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 10:23:12 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 10:23:15 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 10:23:15 AM: INFO: Your store. Login
+
+SeleniumDriver: 08/25/2021 10:23:18 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 10:23:20 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 10:23:27 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 10:23:27 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 10:23:30 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 10:23:30 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:23:30 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:23:30 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 10:23:30 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 10:23:30 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:23:30 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:23:30 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 10:23:30 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 10:23:30 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:23:37 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 10:23:37 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 10:23:40 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 10:23:40 AM: INFO: Dashboard / nopCommerce administration
+
+SeleniumDriver: 08/25/2021 10:23:40 AM: INFO: Captured screenshot
+
+Test_001_Login: 08/25/2021 10:26:03 AM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/25/2021 10:26:12 AM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/25/2021 10:26:12 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 10:26:15 AM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/25/2021 10:26:15 AM: INFO: Your store. Login
+
+Test_001_Login: 08/25/2021 10:26:18 AM: ERROR: ************test_LoginPageTitle Failed*************
+
+Test_001_Login: 08/25/2021 10:26:23 AM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/25/2021 10:26:31 AM: ERROR: Navigation failed
+
+Test_001_Login: 08/25/2021 10:26:31 AM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/25/2021 10:26:34 AM: INFO: ************input Username*************
+
+SeleniumDriver: 08/25/2021 10:26:34 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:26:35 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:26:35 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 10:26:35 AM: INFO: ************input Password*************
+
+SeleniumDriver: 08/25/2021 10:26:35 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:26:35 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:26:35 AM: INFO: Data entered
+
+Test_001_Login: 08/25/2021 10:26:35 AM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/25/2021 10:26:35 AM: INFO: Element found
+
+SeleniumDriver: 08/25/2021 10:26:41 AM: INFO: Element clicked
+
+Test_001_Login: 08/25/2021 10:26:41 AM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/25/2021 10:26:44 AM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/25/2021 10:26:44 AM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/25/2021 10:26:45 AM: ERROR: ************test_HomePage title Failed*************
+
+Test_001_Login: 08/27/2021 06:46:20 PM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/27/2021 06:46:39 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/27/2021 06:46:39 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/27/2021 06:46:42 PM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/27/2021 06:46:42 PM: INFO: Your store. Login
+
+Test_001_Login: 08/27/2021 06:46:42 PM: INFO: ************test_LoginPageTitle Passed*************
+
+Test_001_Login: 08/27/2021 06:46:46 PM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/27/2021 06:46:55 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/27/2021 06:46:55 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/27/2021 06:46:58 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/27/2021 06:46:58 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 06:46:58 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 06:46:58 PM: INFO: Data entered
+
+Test_001_Login: 08/27/2021 06:46:58 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/27/2021 06:46:58 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 06:46:58 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 06:46:58 PM: INFO: Data entered
+
+Test_001_Login: 08/27/2021 06:46:58 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/27/2021 06:46:58 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 06:47:18 PM: INFO: Element clicked
+
+Test_001_Login: 08/27/2021 06:47:18 PM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/27/2021 06:47:21 PM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/27/2021 06:47:21 PM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/27/2021 06:47:21 PM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/27/2021 11:52:41 PM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/27/2021 11:52:50 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/27/2021 11:52:50 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/27/2021 11:52:53 PM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/27/2021 11:52:54 PM: INFO: Your store. Login
+
+Test_001_Login: 08/27/2021 11:52:54 PM: INFO: ************test_LoginPageTitle Passed*************
+
+Test_001_Login: 08/27/2021 11:53:01 PM: INFO: ************test_Login*************
+
+SeleniumDriver: 08/27/2021 11:53:09 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/27/2021 11:53:09 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/27/2021 11:53:12 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/27/2021 11:53:12 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 11:53:12 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 11:53:12 PM: INFO: Data entered
+
+Test_001_Login: 08/27/2021 11:53:12 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/27/2021 11:53:12 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 11:53:12 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 11:53:12 PM: INFO: Data entered
+
+Test_001_Login: 08/27/2021 11:53:12 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/27/2021 11:53:12 PM: INFO: Element found
+
+SeleniumDriver: 08/27/2021 11:53:22 PM: INFO: Element clicked
+
+Test_001_Login: 08/27/2021 11:53:22 PM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/27/2021 11:53:25 PM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/27/2021 11:53:25 PM: INFO: Dashboard / nopCommerce administration
+
+Test_001_Login: 08/27/2021 11:53:25 PM: INFO: ************test_HomePage title Passed*************
+
+Test_001_Login: 08/29/2021 07:11:22 PM: INFO: ************test_Login*************
+
+Test_001_Login: 08/29/2021 07:11:22 PM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 08/29/2021 07:11:28 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 08/29/2021 07:11:28 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/29/2021 07:11:31 PM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 08/29/2021 07:11:31 PM: INFO: Your store. Login
+
+Test_001_Login: 08/29/2021 07:11:31 PM: INFO: ************test_LoginPageTitle Passed*************
+
+SeleniumDriver: 08/29/2021 07:12:45 PM: ERROR: Navigation failed
+
+Test_001_Login: 08/29/2021 07:12:45 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 08/29/2021 07:12:48 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/29/2021 07:12:48 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 07:12:48 PM: INFO: Cannot send data to the element
+
+Test_001_Login: 08/29/2021 07:12:48 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/29/2021 07:12:48 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 07:12:48 PM: INFO: Cannot send data to the element
+
+Test_001_Login: 08/29/2021 07:12:48 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/29/2021 07:12:48 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 07:12:48 PM: ERROR: Element not clicked
+
+Test_001_Login: 08/29/2021 07:12:48 PM: INFO: ************Login Successfull*************
+
+Test_001_Login: 08/29/2021 07:12:51 PM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 08/29/2021 07:12:51 PM: ERROR: Verify failed
+
+Test_003_AddCustomer: 08/29/2021 07:14:03 PM: INFO: ************* Test_003_AddCustomer **********
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_003_AddCustomer: 08/29/2021 07:14:08 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Data entered
+
+Test_003_AddCustomer: 08/29/2021 07:14:08 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Data entered
+
+Test_003_AddCustomer: 08/29/2021 07:14:08 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/29/2021 07:14:08 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:14:58 PM: INFO: Element clicked
+
+Test_003_AddCustomer: 08/29/2021 07:14:58 PM: INFO: ************Login Successfull*************
+
+Test_003_AddCustomer: 08/29/2021 07:15:01 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/29/2021 07:15:01 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:01 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:15:01 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:05 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:15:05 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:10 PM: INFO: Element clicked
+
+Test_003_AddCustomer: 08/29/2021 07:15:10 PM: INFO: ************* Providing customer info **********
+
+SeleniumDriver: 08/29/2021 07:15:10 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:10 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:11 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:15:17 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:18 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:15:20 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:15:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:15:25 PM: INFO: Element clicked
+
+Test_003_AddCustomer: 08/29/2021 07:15:25 PM: INFO: ************* Saving customer info **********
+
+Test_003_AddCustomer: 08/29/2021 07:15:25 PM: INFO: ********* Add customer validation started *****************
+
+Test_003_AddCustomer: 08/29/2021 07:15:26 PM: INFO: ********* Add customer Test Passed *********
+
+Test_003_AddCustomer: 08/29/2021 07:15:28 PM: INFO: ******* Ending Add customer test **********
+
+SeleniumDriver: 08/29/2021 07:34:59 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 07:34:59 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:00 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:00 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:35:00 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:00 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:35:00 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:00 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:35:56 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 07:35:56 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:56 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:56 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 07:35:56 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:56 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 07:35:59 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 07:35:59 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:17:46 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 08:17:46 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:17:46 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:17:49 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:17:52 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:17:52 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:17:52 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:20:14 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:20:17 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:20:17 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:20:17 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:20:17 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:20:17 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:20:20 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:21:30 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:21:33 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:21:33 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:21:33 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:21:33 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:21:33 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:21:36 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:23:02 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 08:23:03 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:03 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:23:03 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:03 PM: ERROR: Element not clicked
+
+SeleniumDriver: 08/29/2021 08:23:06 PM: ERROR: Failed to switch to: alert
+
+SeleniumDriver: 08/29/2021 08:23:06 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:06 PM: ERROR: Element not clicked
+
+SeleniumDriver: 08/29/2021 08:23:09 PM: ERROR: Failed to switch to: alert
+
+SeleniumDriver: 08/29/2021 08:23:14 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 08:23:14 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:14 PM: ERROR: Element not clicked
+
+SeleniumDriver: 08/29/2021 08:23:17 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:17 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:23:20 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:23:49 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 08:23:49 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:49 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:23:49 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:49 PM: ERROR: Element not clicked
+
+SeleniumDriver: 08/29/2021 08:23:52 PM: ERROR: Failed to switch to: alert
+
+SeleniumDriver: 08/29/2021 08:23:52 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:23:52 PM: ERROR: Element not clicked
+
+SeleniumDriver: 08/29/2021 08:23:55 PM: ERROR: Failed to switch to: alert
+
+SeleniumDriver: 08/29/2021 08:24:00 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 08:24:01 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:24:01 PM: ERROR: Element not clicked
+
+SeleniumDriver: 08/29/2021 08:24:04 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:24:04 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:24:07 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:24:39 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 08:24:39 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:24:39 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:24:39 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 08:24:39 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:24:39 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:24:42 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:24:42 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:24:52 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 08:24:52 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:24:52 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:24:55 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:24:55 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:24:58 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:28:59 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 08:28:59 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:28:59 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:28:59 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 08:28:59 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:28:59 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:29:02 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:29:02 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:29:13 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 08:29:13 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 08:29:14 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 08:29:14 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 08:29:17 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 08:29:17 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 08:29:20 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:36:33 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:36:33 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:36:33 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:36:33 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:36:33 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:36:33 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:36:36 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:36:36 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:36:52 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:36:52 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:36:53 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:36:56 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:36:56 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 09:38:20 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:38:20 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:38:20 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:38:20 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:38:20 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:38:20 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:38:24 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:38:24 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:38:34 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:38:34 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:38:34 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:38:37 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:38:37 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 09:39:11 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:39:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:39:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:39:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:39:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:39:11 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:39:14 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:39:14 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:39:23 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:39:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:39:24 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:39:27 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:39:27 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 09:43:38 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:43:38 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:43:38 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:43:38 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:43:38 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:43:38 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:43:41 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:43:41 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:43:52 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:43:52 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:43:53 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:43:53 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:43:56 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:43:56 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 09:43:59 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:45:02 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:45:02 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:45:02 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:45:02 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:45:02 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:45:02 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:45:06 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:45:06 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:45:16 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:45:16 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:45:16 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:45:16 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:45:19 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:45:19 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 09:45:22 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:48:28 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:48:28 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:48:28 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:48:29 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:48:29 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:48:29 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:48:32 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:48:32 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:48:42 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:48:42 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:48:42 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:48:42 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:48:45 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:48:45 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 09:48:48 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:51:40 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:51:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:51:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:51:40 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:51:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:51:40 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:51:44 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:51:44 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:51:53 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:51:53 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:51:53 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:51:53 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:51:56 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:51:56 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 09:51:59 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 09:57:33 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 09:57:33 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:57:33 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:57:34 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 09:57:34 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:57:34 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:57:37 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:57:37 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:59:17 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 09:59:17 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 09:59:17 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 09:59:20 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 09:59:20 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 10:01:36 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 10:01:37 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:01:37 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:01:37 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 10:01:37 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:01:37 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:01:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:01:40 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:02:07 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 10:02:07 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:02:08 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:02:08 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 10:02:11 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 10:02:11 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 10:02:14 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 10:04:40 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 10:04:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:04:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:04:40 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 10:04:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:04:40 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:04:43 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:04:43 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:05:19 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 10:05:19 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:05:19 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:05:19 PM: ERROR: 'list' object is not callable
+
+SeleniumDriver: 08/29/2021 10:05:19 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 10:05:22 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 10:05:22 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 10:05:25 PM: ERROR: 'list' object is not callable
+
+SeleniumDriver: 08/29/2021 10:05:25 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 10:06:51 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 10:06:51 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:06:51 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:06:51 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 10:06:51 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:06:51 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:06:54 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:06:54 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:07:07 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 10:07:07 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:07:07 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:07:08 PM: INFO: Switched to: window
+
+SeleniumDriver: 08/29/2021 10:07:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:07:11 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:07:11 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 10:07:14 PM: INFO: Switched to: window
+
+SeleniumDriver: 08/29/2021 10:10:20 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 10:10:20 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:10:20 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:10:20 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 10:10:20 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:10:20 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:10:23 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:10:23 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:10:38 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 10:10:38 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:10:38 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:10:38 PM: ERROR: 'int' object has no attribute 'isalpha'
+
+SeleniumDriver: 08/29/2021 10:10:38 PM: ERROR: Failed to switch to: window
+
+SeleniumDriver: 08/29/2021 10:10:41 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 10:10:41 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 10:10:44 PM: INFO: Switched to: window
+
+SeleniumDriver: 08/29/2021 10:12:37 PM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/29/2021 10:12:37 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:12:37 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:12:37 PM: INFO: Data entered
+
+SeleniumDriver: 08/29/2021 10:12:37 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:12:37 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:12:40 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:12:40 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:13:09 PM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/29/2021 10:13:09 PM: INFO: Element found
+
+SeleniumDriver: 08/29/2021 10:13:09 PM: INFO: Element clicked
+
+SeleniumDriver: 08/29/2021 10:13:09 PM: INFO: Switched to: window
+
+SeleniumDriver: 08/29/2021 10:13:12 PM: INFO: Element not found
+
+SeleniumDriver: 08/29/2021 10:13:12 PM: INFO: Cannot send data to the element
+
+SeleniumDriver: 08/29/2021 10:13:15 PM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 09:44:03 AM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/30/2021 09:44:03 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:44:03 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:44:03 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 09:44:04 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:44:04 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:44:07 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:44:07 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:44:16 AM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/30/2021 09:44:16 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:44:16 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:44:16 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 09:44:19 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:44:19 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:44:19 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 09:44:23 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 09:44:35 AM: INFO: Navigated to http://demo.guru99.com/test/guru99home/
+
+SeleniumDriver: 08/30/2021 09:44:35 AM: ERROR: could not convert string to float: 'a077aa5e'
+
+SeleniumDriver: 08/30/2021 09:44:35 AM: ERROR: Failed to switch to: frame
+
+SeleniumDriver: 08/30/2021 09:44:38 AM: INFO: Element not found
+
+SeleniumDriver: 08/30/2021 09:44:38 AM: ERROR: Element not clicked
+
+SeleniumDriver: 08/30/2021 09:44:41 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:45:06 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:54:26 AM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/30/2021 09:54:26 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:54:26 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:54:26 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 09:54:26 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:54:26 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:54:29 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:54:29 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:54:41 AM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/30/2021 09:54:41 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:54:41 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:54:41 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 09:54:44 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:54:44 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:54:44 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 09:54:47 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 09:55:00 AM: INFO: Navigated to http://demo.guru99.com/test/guru99home/
+
+SeleniumDriver: 08/30/2021 09:55:03 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:55:03 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:59:21 AM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/30/2021 09:59:21 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:21 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:21 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 09:59:21 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:21 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:59:24 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:25 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:59:34 AM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/30/2021 09:59:34 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:34 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 09:59:34 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 09:59:37 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:37 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:37 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 09:59:40 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 09:59:53 AM: INFO: Navigated to http://demo.guru99.com/test/guru99home/
+
+SeleniumDriver: 08/30/2021 09:59:56 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 09:59:56 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:03:34 AM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/30/2021 10:03:34 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:03:34 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:03:34 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 10:03:34 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:03:34 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:03:37 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:03:37 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:03:47 AM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/30/2021 10:03:47 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:03:47 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:03:47 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 10:03:50 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:03:50 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:03:50 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 10:03:53 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 10:04:04 AM: INFO: Navigated to http://demo.guru99.com/test/guru99home/
+
+SeleniumDriver: 08/30/2021 10:04:07 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:04:07 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:04:10 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 10:04:27 AM: INFO: Element not found
+
+SeleniumDriver: 08/30/2021 10:04:27 AM: ERROR: Element not clicked
+
+SeleniumDriver: 08/30/2021 10:05:23 AM: INFO: Navigated to http://demo.guru99.com/test/delete_customer.php
+
+SeleniumDriver: 08/30/2021 10:05:23 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:23 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:23 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 10:05:23 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:23 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:05:26 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:26 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:05:37 AM: INFO: Navigated to http://demo.guru99.com/popup.php
+
+SeleniumDriver: 08/30/2021 10:05:37 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:37 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:05:37 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 10:05:40 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:40 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:40 AM: INFO: Data entered
+
+SeleniumDriver: 08/30/2021 10:05:43 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 10:05:54 AM: INFO: Navigated to http://demo.guru99.com/test/guru99home/
+
+SeleniumDriver: 08/30/2021 10:05:57 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:05:57 AM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 10:06:00 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 10:06:00 AM: INFO: Switched to: window
+
+SeleniumDriver: 08/30/2021 10:06:03 AM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 10:06:04 AM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:10:33 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:10:39 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:10:39 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:10:39 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:10:39 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:10:39 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:10:39 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:10:39 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:10:39 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:10:40 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:10:40 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:10:40 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:10:45 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:10:45 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:10:48 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:10:48 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:10:48 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:10:48 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:10:50 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:10:50 PM: INFO: ************* Extracting customer info **********
+
+Test_TableData_extraction: 08/30/2021 05:11:44 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:11:47 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:11:47 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:11:47 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:11:47 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:11:58 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:11:58 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:12:01 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:12:01 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:12:01 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:12:01 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:12:03 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:12:03 PM: INFO: ************* Extracting customer info **********
+
+Test_TableData_extraction: 08/30/2021 05:15:09 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:15:12 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:15:12 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:15:12 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:15:12 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:15:21 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:15:21 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:15:24 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:15:25 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:15:25 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:15:25 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:15:28 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:15:28 PM: INFO: ************* Extracting customer info **********
+
+Test_TableData_extraction: 08/30/2021 05:18:03 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:18:08 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:18:08 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:18:08 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:18:08 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:18:13 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:18:13 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:18:16 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:18:16 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:18:16 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:18:16 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:18:17 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:18:17 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 05:18:17 PM: INFO: Element found
+
+Test_TableData_extraction: 08/30/2021 05:19:39 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:19:43 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:19:43 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:19:43 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:19:43 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:19:43 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:19:43 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:19:43 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:19:44 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:19:44 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:19:44 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:19:44 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:19:49 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:19:49 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:19:52 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:19:52 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:19:52 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:19:52 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:19:54 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:19:54 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 05:19:54 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 05:19:54 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 05:19:56 PM: INFO: ******* Extracted data fromtable successfully **********
+
+Test_TableData_extraction: 08/30/2021 05:22:57 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:23:01 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:23:01 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:23:01 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:23:01 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:23:01 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:23:01 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:23:01 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:23:01 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:23:01 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:23:01 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:23:02 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:23:07 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:23:07 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:23:10 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:23:10 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:23:10 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:23:10 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:23:12 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:23:12 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 05:23:12 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 05:23:12 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 05:23:14 PM: INFO: ******* Extracted data fromtable successfully **********
+
+Test_TableData_extraction: 08/30/2021 05:25:28 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:25:33 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:25:33 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:25:33 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:25:33 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:25:34 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:25:34 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:25:34 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:25:34 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:25:34 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:25:34 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:25:34 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:25:39 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:25:39 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:25:42 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:25:42 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:25:42 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:25:42 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:25:44 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:25:44 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 05:25:44 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 05:25:44 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 05:25:47 PM: INFO: ******* Extracted data fromtable successfully **********
+
+Test_TableData_extraction: 08/30/2021 05:28:44 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 05:28:49 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:28:49 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 05:28:49 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 05:28:49 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:28:54 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:28:54 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 05:28:57 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 05:28:57 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:28:57 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 05:28:57 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 05:28:59 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 05:28:59 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 05:28:59 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 05:28:59 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 05:29:01 PM: INFO: ******* Extracted data fromtable successfully **********
+
+Test_TableData_extraction: 08/30/2021 06:06:48 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 06:06:56 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:06:56 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:06:56 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 06:06:56 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:07:03 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:07:03 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 06:07:06 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 06:07:06 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:07:06 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 06:07:06 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:07:08 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:07:08 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 06:07:08 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 06:07:08 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 06:07:51 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 06:08:04 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 06:08:04 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 06:08:04 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:08:04 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:08:04 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:08:04 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 06:08:04 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:08:04 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:08:05 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:08:05 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 06:08:05 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:08:14 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:08:14 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 06:08:17 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 06:08:17 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:08:17 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 06:08:17 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:08:18 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:08:18 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 06:08:19 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 06:08:19 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 06:10:25 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 06:10:29 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 06:10:29 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 06:10:29 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:10:29 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:10:30 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:10:30 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 06:10:30 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:10:30 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:10:30 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:10:30 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 06:10:30 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:10:36 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:10:36 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 06:10:39 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 06:10:39 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:10:39 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 06:10:39 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:10:40 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:10:40 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 06:10:41 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 06:10:41 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 06:10:41 PM: INFO: rows = ,1, columns =1
+
+Test_TableData_extraction: 08/30/2021 06:10:43 PM: INFO: ******* Extracted data fromtable successfully **********
+
+Test_TableData_extraction: 08/30/2021 06:12:50 PM: INFO: ************* Test_Tabledata_Extraction **********
+
+SeleniumDriver: 08/30/2021 06:12:54 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_TableData_extraction: 08/30/2021 06:12:54 PM: INFO: ************input Username*************
+
+SeleniumDriver: 08/30/2021 06:12:54 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:12:54 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:12:54 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:12:54 PM: INFO: ************input Password*************
+
+SeleniumDriver: 08/30/2021 06:12:54 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:12:55 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:12:55 PM: INFO: Data entered
+
+Test_TableData_extraction: 08/30/2021 06:12:55 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 08/30/2021 06:12:55 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:13:02 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:13:02 PM: INFO: ************Login Successfull*************
+
+Test_TableData_extraction: 08/30/2021 06:13:05 PM: INFO: ******* Starting Add Customer Test **********
+
+SeleniumDriver: 08/30/2021 06:13:05 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:13:05 PM: INFO: Element clicked
+
+SeleniumDriver: 08/30/2021 06:13:05 PM: INFO: Element found
+
+SeleniumDriver: 08/30/2021 06:13:07 PM: INFO: Element clicked
+
+Test_TableData_extraction: 08/30/2021 06:13:07 PM: INFO: ************* Extracting customer info **********
+
+SeleniumDriver: 08/30/2021 06:13:07 PM: INFO: Elements found
+
+SeleniumDriver: 08/30/2021 06:13:07 PM: INFO: Elements found
+
+Test_TableData_extraction: 08/30/2021 06:13:07 PM: INFO: rows = ,1, columns =1
+
+Test_TableData_extraction: 08/30/2021 06:13:11 PM: INFO: ******* Extracted data fromtable successfully **********
+

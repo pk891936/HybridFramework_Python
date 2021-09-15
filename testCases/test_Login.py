@@ -1,4 +1,6 @@
 import pytest
+import allure
+from allure_commons.types import AttachmentType
 from selenium.webdriver import *
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import readConfig
@@ -14,6 +16,7 @@ class Test_001_Login:
 
     @pytest.mark.sanity
     @pytest.mark.regression
+    @allure.severity(allure.severity_level.NORMAL)
     def test_LoginPageTitle(self,setup):
         self.logger.info("************test_LoginPageTitle*************")
         self.driver = setup
@@ -22,18 +25,26 @@ class Test_001_Login:
         self.driver.implicitly_wait(3)
         self.logger.info("************Verifying LoginPage Title*************")
         act_title = self.driver.title
+
         if act_title == "Your store. Login":
             self.logger.info("************test_LoginPageTitle Passed*************")
             self.driver.quit()
             assert True
         else :
-            self.driver.save_screenshot(".\\Screenshots\\test_HomePageTitle.png")
+            self.driver.implicitly_wait(2)
+            allure.attach(self.driver.get_screenshot_as_png(),name="test_LoginPageTitle.png", attachment_type=AttachmentType.PNG)
+            #self.driver.save_screenshot(".\\Screenshots\\test_HomePageTitle.png")
             self.logger.error("************test_LoginPageTitle Failed*************")
             self.driver.quit()
             assert False
 
+    @allure.severity(allure.severity_level.NORMAL)
+    def test_skip(self):
+        pytest.skip("**********this test is skipped**********")
+
 
     @pytest.mark.regression
+    @allure.severity(allure.severity_level.BLOCKER)
     def test_Login(self,setup):
         self.logger.info("************test_Login*************")
         self.driver = setup
@@ -51,12 +62,14 @@ class Test_001_Login:
         self.driver.implicitly_wait(3)
         self.logger.info("************Verifying HomePage Title*************")
         act_title = self.driver.title
-        if act_title == "Dashboard / nopCommerce administration":
+        if act_title == "Dashboard / nopCommerce administrationss":
             self.logger.info("************test_Login Failed*************")
             self.driver.quit()
             assert True
         else:
-            self.driver.save_screenshot(".\\Screenshots\\test_Login.png")
+            #self.driver.save_screenshot(".\\Screenshots\\test_Login.png")
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_HomePageTitle.png",
+                          attachment_type=AttachmentType.PNG)
             self.logger.error("************test_Login Failed*************")
             self.driver.quit()
             assert False

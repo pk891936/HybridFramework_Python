@@ -33,10 +33,15 @@ def setup(browser):
         driver = webdriver.Edge(browserPath)
         print("*************Launching Edge Browser**************")
         driver.maximize_window()
-    else :
+    elif browser == 'ie':
         browserPath = readConfig.getBrowserPath("ie")
         driver = webdriver.Ie(browserPath)
         print("*************Launching IE Browser**************")
+        driver.maximize_window()
+    else:
+        browserPath = readConfig.getBrowserPath("chrome")
+        driver = webdriver.Chrome(browserPath)
+        print("*************Launching Chrome Browser**************")
         driver.maximize_window()
     return driver
 
@@ -46,6 +51,7 @@ def pytest_addoption(parser):       #this will get the values from CLI or hooks
 @pytest.fixture()
 def browser(request):              #this will return browser value to setup
     return request.config.getoption("--browser")
+
 
 
 ####################### Pytest HTML Reports

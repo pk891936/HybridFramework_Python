@@ -1,8 +1,11 @@
 import requests
 import json , jsonpath
+import allure
 from utilities.customlogger import logGenerator
 from utilities.readProperties import readConfig
 
+
+@allure.severity(allure.severity_level.BLOCKER)
 def test_AddNew_Student():
     logger =logGenerator.logGen()
     Base_URL = readConfig.getAPI_URL()
@@ -13,8 +16,9 @@ def test_AddNew_Student():
     f= open(JsonFilePath+"//AddNewStudent.json",'r')
     request_json = json.loads(f.read())
     response = requests.post(App_Url,request_json)
+    print(response.text)
     id = jsonpath.jsonpath(response.json(),"id")
-    #print(response.text)
+
     print(id)
 
     logger.info("***************Post:Add Student Technical Skills*****************")
@@ -51,7 +55,8 @@ def test_AddNew_Student():
     f = open(JsonFilePath+"//UpdateAddress.json", 'r')
     request_json = json.loads(f.read())
     request_json["stId"] = int(id[0])
-    response = requests.post(address_API_URL, request_json)
+    response = requests.put(address_API_URL, request_json)
+    print("Update Status Code:", response.status_code)
     logger.info(response.text)
 
     logger.info("***************GET:Final Student Details After Update*****************")

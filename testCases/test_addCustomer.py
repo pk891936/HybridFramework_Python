@@ -66,6 +66,7 @@ class Test_003_AddCustomer:
             assert False
 
         self.driver.close()
+
         self.logger.info("******* Ending Add customer test **********")
 
 

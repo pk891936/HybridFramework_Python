@@ -40,6 +40,18 @@ class readConfig():
         return url
 
     @staticmethod
+    def getCoopsAPI_URL():
+        url = config.get('commonInfo', 'baseCoopsAPI_URL')
+        return url
+
+
+    @staticmethod
     def getJsonFilePath():
         JsonFilePath = config.get('testdataInfo', 'JsonFilePath')
         return JsonFilePath
+
+    @staticmethod
+    def getOutputFilePath():
+        JsonFilePath = config.get('testdataInfo', 'OutputPath')
+        return JsonFilePath
+

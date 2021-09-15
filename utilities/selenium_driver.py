@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 from utilities.readProperties import readConfig
 
-#import cx_Oracle
+import cx_Oracle
 import re
 ##################################################
 import time
@@ -104,7 +104,24 @@ class SeleniumDriver():
         try:
 
             elementtofind = None
-            elementtofind = self.driver.find_elements(locatortype,locator)
+            elementtofind = self.driver.find_element(locatortype,locator)
+            self.log.info("Element found")
+            # If element occurance found then return True
+            if len(elementtofind) > 0:
+                return True
+            else:
+                return False
+                self.log.info("Element not found")
+        except:
+            self.log.info("Some error occured, element not found")
+            return False
+
+        # Method to find web element occurance
+    def findelements(self, locatortype, locator):
+        try:
+
+            elementtofind = None
+            elementtofind = self.driver.find_elements(locatortype, locator)
             self.log.info("Element found")
             # If element occurance found then return True
             if len(elementtofind) > 0:
@@ -170,6 +187,14 @@ class SeleniumDriver():
             self.log.info("Capture screenshot failed")
             return False
 
+    def capturescreen_Allure(self):
+        try:
+            return self.driver.get_screenshot_as_png()
+            self.log.info("Captured screenshot")
+        except BaseException as msg:
+            self.log.info(msg)
+
+
     # Method to get page title
     def getTitle(self):
         return self.driver.title
@@ -200,11 +225,16 @@ class SeleniumDriver():
 
     # Method to Select value from the dropdown
 
-    def select_dropdown(self, locatortype, locator, value):
+    def select_dropdown(self, locatortype, locator, type, datavalue):
         try:
             drop_down = self.driver.find_element(locatortype,locator)
             sel_element = Select(drop_down)
-            sel_element.select_by_index(1)
+            if type == "index":
+                sel_element.select_by_index(datavalue)
+            elif type == "value":
+                sel_element.select_by_value(datavalue)
+            elif type == "visible_text":
+                sel_element.select_by_visible_text(datavalue)
             return True
         except:
             self.log.error("Dropdown selection failed")
@@ -272,6 +302,7 @@ class SeleniumDriver():
     def verify_title(self, value):
         try:
             title = str(self.getTitle())
+            self.log.info(title)
             if title == value:
                 return True
             else:
@@ -335,10 +366,10 @@ class SeleniumDriver():
             return False
 
     # Method to drag and drop element from source to destination
-    def dragndrop(self,locatortype,locator,value):
+    def dragndrop(self,locatortype,locator,targetvalue):
         try:
             from_element = self.driver.find_element(locatortype,locator)
-            to_element = self.driver.find_element(locatortype,value)
+            to_element = self.driver.find_element(locatortype,targetvalue)
             action = ActionChains(self.driver)
             action.drag_and_drop(from_element,to_element).perform()
             return True
@@ -355,19 +386,36 @@ class SeleniumDriver():
             self.log.error("Close browser failed")
             return False
 
-
+        # Method to close current window
+    def closeWindow(self):
+        try:
+            self.driver.close()
+            return True
+        except:
+            self.log.error("Close window failed")
+            return False
 
     def switchto(self,property,value):
         try:
-            if not value.isalpha():
-                value = int(float(value))
-                value = value - 1
-            else:
-                value = str(value)
+            #if not value.isalpha():
+               # value = int(float(value))
+               # value = value - 1
+            #else:
+               # value = str(value)
 
-            if property == "window":
-                current_window = self.driver.window_handles[value]
-                self.driver.switch_to.window(current_window)
+            if property == "window" and value == "parent":
+                #current_window = self.driver.window_handles(0)
+                #print(current_window)
+                self.driver.switch_to.window(self.driver.window_handles[0])
+                self.log.info("Switched to: " +str(value), " " + str(property))
+                return True
+            elif property == "window" and value == "child":
+                self.driver.switch_to.window(self.driver.window_handles[1])
+                self.log.info("Switched to: " + str(value) + str(property))
+                return True
+            elif property == "window" :
+                self.driver.switch_to.window(self.driver.window_handles[int(value)])
+                self.log.info("Switched to: " + str(property))
                 return True
             elif property == "frame":
                 if value == "default":
@@ -390,8 +438,9 @@ class SeleniumDriver():
                         return True
                     else:
                         return False
-        except:
-            self.log.error("Failed to switch to: "+str(property))
+        except BaseException as msg:
+            self.log.error(msg)
+            self.log.error("Failed to switch to: "+ str(property))
             return False
 
 
@@ -408,18 +457,17 @@ class SeleniumDriver():
             self.log.error("Failed to get data value from UI")
             return False
 
+        # Connect to DB via oracle string
 
-    # Connect to DB via oracle string
-    #
-    #   def dbconnect(self):
-    #       try:
-    #           self.conn = cx_Oracle.Connection(self.constants.Conn_String)
-    #           # link cursor to the connection
-    #           self.curr = self.conn.cursor()
-    #           return True
-    #       except:
-    #           self.log.error("DB connection failed")
-    #           return False
+    def dbconnect(self,Conn_String):
+        try:
+            self.conn = cx_Oracle.Connection(Conn_String)
+            #link cursor  to  the connection
+            self.curr = self.conn.cursor()
+            return True
+        except:
+            self.log.error("DB connection failed")
+            return False
 
 
     # Get draft query
