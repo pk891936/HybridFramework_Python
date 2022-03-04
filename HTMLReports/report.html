@@ -429,7 +429,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 30-Aug-2021 at 10:06:08 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 08-Feb-2022 at 22:03:28 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -454,8 +454,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester name</td>
         <td>Praveen</td></tr></table>
     <h2>Summary</h2>
-    <p>3 tests ran in 48.57 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 145.10 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -466,61 +466,46 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="failed results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_new.py::Test_001_Alert::test_Alert</td>
-          <td class="col-duration">12.15</td>
+          <td class="col-result">Failed</td>
+          <td class="col-name">test_Login_Actions.py::Test_001_Login::test_Login</td>
+          <td class="col-duration">141.25</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>*************Launching Chrome Browser**************
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_new.py:25 ************* Test_Alert **********
-INFO     SeleniumDriver:selenium_driver.py:76 Navigated to http://demo.guru99.com/test/delete_customer.php
-INFO     root:test_new.py:30 ************input Custormer*************
+            <div class="log">[gw1] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe<br/>[gw1] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe[gw1] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe<br/><br/>self = &lt;test_Login_Actions.Test_001_Login object at 0x00000184684160B8&gt;, setup = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;f392f7097317ac1e1c2b6a9e03c1824a&quot;)&gt;<br/><br/>    @pytest.mark.mytest<br/>    def test_Login(self, setup):<br/>        self.logger.info(&quot;************test_Login*************&quot;)<br/>        self.wb = setup<br/>        self.driver = driver_mapping(self.wb)<br/>        self.driver.navigate(self.baseURL)<br/>        self.logger.info(&quot;************Loaded URL*************&quot;)<br/>        self.driver.wait(3)<br/>        self.lp = LoginPage(self.driver)<br/>        self.logger.info(&quot;************input Username*************&quot;)<br/>        self.driver.sendKeys(self.username,By.ID,self.lp.textbox_username_id)<br/>        self.logger.info(&quot;************input Password*************&quot;)<br/>        self.driver.sendKeys(self.password, By.ID, self.lp.textbox_password_id)<br/>        self.logger.info(&quot;************clicking Login*************&quot;)<br/>        self.driver.elementClick(By.XPATH,self.lp.button_login_xpath)<br/>        self.logger.info(&quot;************Login Successfull*************&quot;)<br/>        self.driver.wait(3)<br/>        self.logger.info(&quot;************Verifying HomePage Title*************&quot;)<br/>        condition = self.driver.verify_title(&quot;Dashboard / nopCommerce administration&quot;)<br/>    <br/>        if condition == True:<br/>            self.logger.info(&quot;************test_HomePage title Passed*************&quot;)<br/>            self.driver.closebrowser()<br/>            assert True<br/>        else:<br/>            self.driver.capturescreen()<br/>            self.logger.error(&quot;************test_HomePage title Failed*************&quot;)<br/>            self.driver.closebrowser()<br/>&gt;           assert False<br/><span class="error">E           assert False</span><br/><br/>testCases\test_Login_Actions.py:68: AssertionError[gw1] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>*************Launching Chrome Browser**************
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_001_Login:test_Login_Actions.py:42 ************test_Login*************
+INFO     SeleniumDriver:selenium_driver.py:76 Navigated to https://admin-demo.nopcommerce.com
+INFO     Test_001_Login:test_Login_Actions.py:46 ************Loaded URL*************
+INFO     Test_001_Login:test_Login_Actions.py:49 ************input Username*************
 INFO     SeleniumDriver:selenium_driver.py:86 Element found
 INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:153 Data entered
-INFO     root:test_new.py:32 ************clicking Delete*************
+INFO     SeleniumDriver:selenium_driver.py:170 Data entered
+INFO     Test_001_Login:test_Login_Actions.py:51 ************input Password*************
 INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:142 Element clicked
 INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:142 Element clicked
-INFO     root:test_new.py:39 ************Alert handled Successfull*************<br/></div></td></tr></tbody>
+INFO     SeleniumDriver:selenium_driver.py:170 Data entered
+INFO     Test_001_Login:test_Login_Actions.py:53 ************clicking Login*************
+INFO     SeleniumDriver:selenium_driver.py:86 Element found
+INFO     SeleniumDriver:selenium_driver.py:159 Element clicked
+INFO     Test_001_Login:test_Login_Actions.py:55 ************Login Successfull*************
+INFO     Test_001_Login:test_Login_Actions.py:57 ************Verifying HomePage Title*************
+INFO     SeleniumDriver:selenium_driver.py:305 admin-demo.nopcommerce.com
+INFO     SeleniumDriver:selenium_driver.py:184 Captured screenshot
+ERROR    Test_001_Login:test_Login_Actions.py:66 ************test_HomePage title Failed*************<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_new.py::Test_001_Alert::test_window</td>
-          <td class="col-duration">16.55</td>
+          <td class="col-name">test_Login_Actions.py::Test_001_Login::test_LoginPageTitle</td>
+          <td class="col-duration">49.24</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>*************Launching Chrome Browser**************
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_new.py:45 ************* Test_Alert **********
-INFO     SeleniumDriver:selenium_driver.py:76 Navigated to http://demo.guru99.com/popup.php
-INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:142 Element clicked
-INFO     SeleniumDriver:selenium_driver.py:392 Switched to: window
-INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:153 Data entered
-INFO     SeleniumDriver:selenium_driver.py:388 Switched to: window
-INFO     root:test_new.py:57 ************window handled Successfull*************<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_new.py::Test_001_Alert::test_frame</td>
-          <td class="col-duration">18.94</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>*************Launching Chrome Browser**************
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_new.py:61 ************* Test_Alert **********
-INFO     SeleniumDriver:selenium_driver.py:76 Navigated to http://demo.guru99.com/test/guru99home/
-INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:142 Element clicked
-INFO     SeleniumDriver:selenium_driver.py:392 Switched to: window
-INFO     SeleniumDriver:selenium_driver.py:388 Switched to: window
-INFO     SeleniumDriver:selenium_driver.py:86 Element found
-INFO     SeleniumDriver:selenium_driver.py:142 Element clicked
-INFO     root:test_new.py:76 ************Frame handled Successfull*************<br/></div></td></tr></tbody></table></body></html>
+            <div class="log">[gw0] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe<br/>[gw0] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe[gw0] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe[gw0] win32 -- Python 3.7.3 C:\Users\Praveen\PycharmProjects\Framework_Keyword_Praveen\venv\Scripts\python.exe<br/> -----------------------------Captured stdout setup------------------------------ <br/>*************Launching Chrome Browser**************
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     Test_001_Login:test_Login_Actions.py:20 ************test_LoginPageTitle*************
+INFO     SeleniumDriver:selenium_driver.py:76 Navigated to https://admin-demo.nopcommerce.com
+INFO     Test_001_Login:test_Login_Actions.py:25 ************Loaded URL*************
+INFO     Test_001_Login:test_Login_Actions.py:27 ************Verifying LoginPage Title*************
+INFO     SeleniumDriver:selenium_driver.py:305 Your store. Login
+INFO     Test_001_Login:test_Login_Actions.py:31 ************test_LoginPageTitle Passed*************<br/></div></td></tr></tbody></table></body></html>

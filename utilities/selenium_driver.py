@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 from utilities.readProperties import readConfig
 
-import cx_Oracle
+#import cx_Oracle
 import re
 ##################################################
 import time
@@ -215,7 +215,7 @@ class SeleniumDriver():
             elif direction == 'right':
                 self.driver.execute_script("window.scrollBy(1000,0);")
                 return True
-            else:
+            elif direction == 'left':
                 self.driver.execute_script("window.scrollBy(-1000,0);")
                 return True
         except:
@@ -308,7 +308,7 @@ class SeleniumDriver():
             else:
                 return False
         except:
-            self.log.error("Verify failed")
+            self.log.error("Verify Title failed")
             return False
 
     def verify(self,property,value,locatortype,locator):
@@ -459,107 +459,107 @@ class SeleniumDriver():
 
         # Connect to DB via oracle string
 
-    def dbconnect(self,Conn_String):
-        try:
-            self.conn = cx_Oracle.Connection(Conn_String)
-            #link cursor  to  the connection
-            self.curr = self.conn.cursor()
-            return True
-        except:
-            self.log.error("DB connection failed")
-            return False
-
-
-    # Get draft query
-    def draftquery(self,value):
-        try:
-            self.rawquery = str(value)
-            #print("query is "+str(value))
-            return True
-        except:
-            self.log.error("Failed to get draft query")
-            return False
-
-    # Concat draft query
-    def concat(self,value):
-        try:
-            self.finalquery = self.rawquery + " " + str(value)
-            self.rawquery = self.finalquery
-            return True
-        except:
-            self.log.error("Failed to concat query")
-            return False
-
-    # Execute the query
-    def executequery(self):
-        try:
-            if self.finalquery is None:
-                self.resultset = self.curr.execute(self.rawquery)
-            else:
-                self.resultset = self.curr.execute(self.finalquery)
-            return True
-        except:
-            self.log.error("Execute query failed")
-            return False
-
-    # Get db value
-    def getdbvalue(self,value):
-        try:
-            value = None
-            self.result_list = self.resultset.fetchall()
-
-            for rows in self.result_list:
-                value = str(rows[0])
-                self.DBvalue = value
-                #print("DB value "+self.DBvalue)
-            self.curr.close()
-            self.conn.close()
-            return True
-
-        except:
-            self.log.error("Failed to get db value into a variable")
-            return False
-
-
-    # compare db and UI value
-    def compare(self):
-        try:
-            # Using regex match only alphanumeric characters excluding special characters
-            # and replacing with blank character
-            nDBvalue = re.sub("[^\w\.]", "", self.DBvalue)
-            nUIvalue = re.sub("[^\w\.]", "", self.UIvalue)
-            # compare db and UI value
-            if nDBvalue == nUIvalue:
-                return True
-            else:
-                return False
-        except:
-            self.log.error("Comparison between DB and UI value failed")
-            return False
-
-
-            # Method to perform element click
-
-    def doubleClick(self, locatortype, locator):
-        try:
-            element = None
-            element = self.getelement(locatortype,locator)
-            action = ActionChains(self.driver)
-            action.double_click(element).perform()
-            return True
-        except:
-            self.log.error("Double Click on the element failed")
-            return False
-
-    def execute(self, value):
-        try:
-            self.driver.execute_script("arguments[0].click();", value)
-            #self.execute_script("arguments[0].click();", value)
-            return True
-        except BaseException as msg:
-            self.log.exception(msg)
-            self.log.error("Execute Element failed")
-            return False
+    #    def dbconnect(self,Conn_String):
+    #       try:
+    #           self.conn = cx_Oracle.Connection(Conn_String)
+    #           #link cursor  to  the connection
+    #           self.curr = self.conn.cursor()
+    #           return True
+    #       except:
+    #           self.log.error("DB connection failed")
+    #           return False
+    #
+    #
+    #   # Get draft query
+    #   def draftquery(self,value):
+    #       try:
+    #           self.rawquery = str(value)
+    #           #print("query is "+str(value))
+    #           return True
+    #       except:
+    #           self.log.error("Failed to get draft query")
+    #           return False
+    #
+    #   # Concat draft query
+    #   def concat(self,value):
+    #       try:
+    #           self.finalquery = self.rawquery + " " + str(value)
+    #           self.rawquery = self.finalquery
+    #           return True
+    #       except:
+    #           self.log.error("Failed to concat query")
+    #           return False
+    #
+    #   # Execute the query
+    #   def executequery(self):
+    #       try:
+    #           if self.finalquery is None:
+    #               self.resultset = self.curr.execute(self.rawquery)
+    #           else:
+    #               self.resultset = self.curr.execute(self.finalquery)
+    #           return True
+    #       except:
+    #           self.log.error("Execute query failed")
+    #           return False
+    #
+    #   # Get db value
+    #   def getdbvalue(self,value):
+    #       try:
+    #           value = None
+    #           self.result_list = self.resultset.fetchall()
+    #
+    #           for rows in self.result_list:
+    #               value = str(rows[0])
+    #               self.DBvalue = value
+    #               #print("DB value "+self.DBvalue)
+    #           self.curr.close()
+    #           self.conn.close()
+    #           return True
+    #
+    #       except:
+    #           self.log.error("Failed to get db value into a variable")
+    #           return False
+    #
+    #
+    #   # compare db and UI value
+    #   def compare(self):
+    #       try:
+    #           # Using regex match only alphanumeric characters excluding special characters
+    #           # and replacing with blank character
+    #           nDBvalue = re.sub("[^\w\.]", "", self.DBvalue)
+    #           nUIvalue = re.sub("[^\w\.]", "", self.UIvalue)
+    #           # compare db and UI value
+    #           if nDBvalue == nUIvalue:
+    #               return True
+    #           else:
+    #               return False
+    #       except:
+    #           self.log.error("Comparison between DB and UI value failed")
+    #           return False
+    #
+    #
+    #           # Method to perform element click
+    #
+    #   def doubleClick(self, locatortype, locator):
+    #       try:
+    #           element = None
+    #           element = self.getelement(locatortype,locator)
+    #           action = ActionChains(self.driver)
+    #           action.double_click(element).perform()
+    #           return True
+    #       except:
+    #           self.log.error("Double Click on the element failed")
+    #           return False
+    #
+    #   def execute(self, value):
+    #       try:
+    #           self.driver.execute_script("arguments[0].click();", value)
+    #           #self.execute_script("arguments[0].click();", value)
+    #           return True
+    #       except BaseException as msg:
+    #           self.log.exception(msg)
+    #           self.log.error("Execute Element failed")
+    #           return False
 
 
 

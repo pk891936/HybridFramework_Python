@@ -14,10 +14,14 @@ def test_AddNew_Student():
     App_Url = Base_URL+"/api/studentsDetails"
     JsonFilePath=readConfig.getJsonFilePath()
     f= open(JsonFilePath+"//AddNewStudent.json",'r')
-    request_json = json.loads(f.read())
-    response = requests.post(App_Url,request_json)
+    payload_json = json.loads(f.read())
+    response = requests.post(App_Url,payload_json)
     print(response.text)
-    id = jsonpath.jsonpath(response.json(),"id")
+    print(response.status_code)
+    resp_json = response.json()
+    assert response.status_code == 201
+    assert resp_json['id'] is not None
+    id = jsonpath.jsonpath(resp_json,"id")
 
     print(id)
 
@@ -28,7 +32,8 @@ def test_AddNew_Student():
     request_json["id"] = int(id[0])
     request_json["st_id"] = id[0]
     response = requests.post(tech_API_URL, request_json)
-    #print(response.text)
+    print(response.text)
+    assert response.status_code == 200
 
     logger.info("***************Post:Add Student Address*****************")
     address_API_URL = Base_URL+"/api/addresses"
@@ -36,15 +41,20 @@ def test_AddNew_Student():
     request_json = json.loads(f.read())
     request_json["stId"] = int(id[0])
     response = requests.post(address_API_URL, request_json)
+    print(response.status_code,"--Post:status code")
+    assert response.status_code == 200
 
     logger.info("***************GET:Final Student Details*****************")
     finaldetails_URL = Base_URL+"/api/FinalStudentDetails/"+str(id[0])
     response = requests.get(finaldetails_URL)
+    print(response.status_code, "--Get: status code")
+    assert response.status_code == 200
+    print(response.headers)
     logger.info(response.text)
 
     # logger.info("***************DELETE: Student Details*****************")
     # delete_URL = "http://thetestingworldapi.com/api/studentsDetails/" + str(id[0])
-    # response = requests.delete(finaldetails_URL)
+    # response = requests.delete(delete_URL)
     # logger.info(response.text)
     # print(response.text)
     # assert response.status_code == 405
@@ -55,14 +65,26 @@ def test_AddNew_Student():
     f = open(JsonFilePath+"//UpdateAddress.json", 'r')
     request_json = json.loads(f.read())
     request_json["stId"] = int(id[0])
+    print(request_json)
     response = requests.put(address_API_URL, request_json)
     print("Update Status Code:", response.status_code)
     logger.info(response.text)
+    assert response.status_code == 405
+
 
     logger.info("***************GET:Final Student Details After Update*****************")
     finaldetails_URL = Base_URL+"/api/FinalStudentDetails/" + str(id[0])
     response = requests.get(finaldetails_URL)
     logger.info(response.text)
+    resp_json = response.json()
+    assert response.status_code == 200
+    print("*******************Final response******************************************")
+    a = resp_json['data']
+    print(resp_json)
+    print(a)
+
+
+
 
 
 

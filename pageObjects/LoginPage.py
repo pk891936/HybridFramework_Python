@@ -13,7 +13,6 @@ class LoginPage():
         self.driver = driver
 
     def setUserName(self, username):
-
         self.driver.find_element_by_id(self.textbox_username_id).clear()
         self.driver.find_element_by_id(self.textbox_username_id).send_keys(username)
     def setPassword(self, password):

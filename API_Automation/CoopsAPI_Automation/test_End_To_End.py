@@ -14,7 +14,7 @@ Base_URL = readConfig.getCoopsAPI_URL()
 def test_post_Barn_unlock():
     logger.info("***************test_Coops_API*****************")
     logger.info("***************Post: Barn-unlock*****************")
-    print(token)
+    print("Token: ", token)
     Api_Url = Base_URL +"/api/"+str(USER_ID)+"/barn-unlock"
     print("Post: ", str(Api_Url))
     response = requests.post(Api_Url, headers={'Authorization': 'Bearer '+token})

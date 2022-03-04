@@ -21,6 +21,7 @@ class Test_001_Alert:
 
     @pytest.mark.regression
     @allure.severity(allure.severity_level.BLOCKER)
+
     def test_Alert(self,setup):
         self.logger.info("************* Test_Alert **********")
         self.wb = setup

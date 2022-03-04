@@ -32,7 +32,7 @@ class logGenerator():
         logger.setLevel(loglevel)
 
         # Step2: create console and set level
-        lhandler = logging.FileHandler("run.xls","a")
+        lhandler = logging.FileHandler("run.txt","a")
         lhandler.setLevel(loglevel)
 
         # Step3: define message format

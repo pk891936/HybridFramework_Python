@@ -55,3 +55,8 @@ class readConfig():
         JsonFilePath = config.get('testdataInfo', 'OutputPath')
         return JsonFilePath
 
+    @staticmethod
+    def getPath(Pathinfo, browsername):
+        browserPath = config.get(Pathinfo, browsername)
+        return browserPath
+

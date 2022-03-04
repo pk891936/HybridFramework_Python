@@ -21,6 +21,7 @@ def get_AuthToken():
 
 
 def authorise():
+    token = get_AuthToken()
     Authorize_URL = "http://coop.apps.symfonycasts.com/authorize?client_id=MyAPI_Automate&response_type="
     resp = requests.post(Authorize_URL + str(token))
     print(resp.text)

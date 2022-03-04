@@ -429,7 +429,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>APITestreport.html</h1>
-    <p>Report generated on 14-Sep-2021 at 11:07:54 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 08-Feb-2022 at 15:35:37 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -448,8 +448,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.7.3</td></tr></table>
     <h2>Summary</h2>
-    <p>5 tests ran in 2.67 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">5 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 1.33 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -463,61 +463,31 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">API_Automation/CoopsAPI_Automation/test_End_To_End.py::test_post_Barn_unlock</td>
-          <td class="col-duration">0.35</td>
+          <td class="col-name">API_Automation/TestCases/test_End_To_End.py::test_AddNew_Student</td>
+          <td class="col-duration">1.16</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>26aedd8186054f89ac9a109ae213d6b2c4c3f19c
-Post:  http://coop.apps.symfonycasts.com/api/2229/barn-unlock
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_End_To_End.py:15 ***************test_Coops_API*****************
-INFO     root:test_End_To_End.py:16 ***************Post: Barn-unlock*****************
-INFO     root:test_End_To_End.py:21 {&quot;action&quot;:&quot;barn-unlock&quot;,&quot;success&quot;:true,&quot;message&quot;:&quot;You just unlocked your barn! Watch out for strangers!&quot;,&quot;data&quot;:null}<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">API_Automation/CoopsAPI_Automation/test_End_To_End.py::test_post_toiletseat_down</td>
-          <td class="col-duration">0.32</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Post:  http://coop.apps.symfonycasts.com/api/2229/toiletseat-down
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_End_To_End.py:26 ***************test_Coops_API*****************
-INFO     root:test_End_To_End.py:27 ***************Post: Toiletseat-down*****************
-INFO     root:test_End_To_End.py:31 {&quot;action&quot;:&quot;toiletseat-down&quot;,&quot;success&quot;:true,&quot;message&quot;:&quot;You just put the toilet seat down. You\u0027re a wonderful roommate!&quot;,&quot;data&quot;:null}<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">API_Automation/CoopsAPI_Automation/test_End_To_End.py::test_post_chickens_feed</td>
-          <td class="col-duration">0.32</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Post:  http://coop.apps.symfonycasts.com/api/2229/chickens-feed
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_End_To_End.py:37 ***************test_Coops_API*****************
-INFO     root:test_End_To_End.py:38 ***************Post: Chickens-feed*****************
-INFO     root:test_End_To_End.py:42 {&quot;action&quot;:&quot;chickens-feed&quot;,&quot;success&quot;:true,&quot;message&quot;:&quot;Your chickens are now full and happy&quot;,&quot;data&quot;:null}<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">API_Automation/CoopsAPI_Automation/test_End_To_End.py::test_post_eggs_collect</td>
-          <td class="col-duration">0.34</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Post:  http://coop.apps.symfonycasts.com/api/2229/eggs-collect
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_End_To_End.py:48 ***************test_Coops_API*****************
-INFO     root:test_End_To_End.py:49 ***************Post: Eggs-collect*****************
-INFO     root:test_End_To_End.py:53 {&quot;action&quot;:&quot;eggs-collect&quot;,&quot;success&quot;:true,&quot;message&quot;:&quot;Hey look at that, 2 eggs have been collected!&quot;,&quot;data&quot;:2}<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">API_Automation/CoopsAPI_Automation/test_End_To_End.py::test_post_eggs_count</td>
-          <td class="col-duration">0.31</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Post:  http://coop.apps.symfonycasts.com/api/2229/eggs-count
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_End_To_End.py:69 ***************test_Coops_API*****************
-INFO     root:test_End_To_End.py:70 ***************Post: Eggs-count*****************
-INFO     root:test_End_To_End.py:74 {&quot;action&quot;:&quot;eggs-count&quot;,&quot;success&quot;:true,&quot;message&quot;:&quot;You have collected a total of 2 eggs today&quot;,&quot;data&quot;:2}<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Logger file created
+{&quot;id&quot;:942778,&quot;first_name&quot;:&quot;Test&quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;Python&quot;,&quot;date_of_birth&quot;:&quot;12-12-1993&quot;}
+201
+[942778]
+{&quot;status&quot;:&quot;true&quot;,&quot;msg&quot;:&quot;Add  data success&quot;}
+200 --Post:status code
+200 --Get: status code
+{&#x27;Cache-Control&#x27;: &#x27;no-cache&#x27;, &#x27;Pragma&#x27;: &#x27;no-cache&#x27;, &#x27;Content-Type&#x27;: &#x27;application/json; charset=utf-8&#x27;, &#x27;Expires&#x27;: &#x27;-1&#x27;, &#x27;Server&#x27;: &#x27;Microsoft-IIS/8.5&#x27;, &#x27;X-AspNet-Version&#x27;: &#x27;4.0.30319&#x27;, &#x27;X-Powered-By&#x27;: &#x27;ASP.NET&#x27;, &#x27;X-Powered-By-Plesk&#x27;: &#x27;PleskWin&#x27;, &#x27;Date&#x27;: &#x27;Tue, 08 Feb 2022 10:05:36 GMT&#x27;, &#x27;Content-Length&#x27;: &#x27;524&#x27;}
+{&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: &#x27;3-604&#x27;, &#x27;City&#x27;: &#x27;Tadipatri&#x27;, &#x27;State&#x27;: &#x27;AP&#x27;, &#x27;Country&#x27;: &#x27;India&#x27;, &#x27;PhoneNumber&#x27;: [{&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}, {&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}]}, &#x27;Current_Address&#x27;: {&#x27;House_Number&#x27;: &#x27;3-604&#x27;, &#x27;City&#x27;: &#x27;Tadipatri&#x27;, &#x27;State&#x27;: &#x27;AP&#x27;, &#x27;Country&#x27;: &#x27;India&#x27;, &#x27;PhoneNumber&#x27;: [{&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}, {&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}]}, &#x27;stId&#x27;: 942778}
+Update Status Code: 405
+*******************Final response******************************************
+{&#x27;status&#x27;: &#x27;true&#x27;, &#x27;data&#x27;: {&#x27;first_name&#x27;: &#x27;Test&#x27;, &#x27;middle_name&#x27;: &#x27;API&#x27;, &#x27;last_name&#x27;: &#x27;Python&#x27;, &#x27;date_of_birth&#x27;: &#x27;12-12-1993&#x27;, &#x27;TechnicalDetails&#x27;: [{&#x27;id&#x27;: 24394, &#x27;language&#x27;: [&#x27;Python&#x27;, &#x27;Java&#x27;], &#x27;yearexp&#x27;: &#x27;3&#x27;, &#x27;lastused&#x27;: &#x27;2021&#x27;, &#x27;st_id&#x27;: &#x27;942778&#x27;}], &#x27;Address&#x27;: [{&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;942778&#x27;}, {&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;942778&#x27;}]}}
+{&#x27;first_name&#x27;: &#x27;Test&#x27;, &#x27;middle_name&#x27;: &#x27;API&#x27;, &#x27;last_name&#x27;: &#x27;Python&#x27;, &#x27;date_of_birth&#x27;: &#x27;12-12-1993&#x27;, &#x27;TechnicalDetails&#x27;: [{&#x27;id&#x27;: 24394, &#x27;language&#x27;: [&#x27;Python&#x27;, &#x27;Java&#x27;], &#x27;yearexp&#x27;: &#x27;3&#x27;, &#x27;lastused&#x27;: &#x27;2021&#x27;, &#x27;st_id&#x27;: &#x27;942778&#x27;}], &#x27;Address&#x27;: [{&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;942778&#x27;}, {&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;942778&#x27;}]}
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_End_To_End.py:12 ***************test_AddNew_Student*****************
+INFO     root:test_End_To_End.py:13 ***************Post:Add New Student*****************
+INFO     root:test_End_To_End.py:28 ***************Post:Add Student Technical Skills*****************
+INFO     root:test_End_To_End.py:38 ***************Post:Add Student Address*****************
+INFO     root:test_End_To_End.py:47 ***************GET:Final Student Details*****************
+INFO     root:test_End_To_End.py:53 {&quot;status&quot;:&quot;true&quot;,&quot;data&quot;:{&quot;first_name&quot;:&quot;Test&quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;Python&quot;,&quot;date_of_birth&quot;:&quot;12-12-1993&quot;,&quot;TechnicalDetails&quot;:[{&quot;id&quot;:24394,&quot;language&quot;:[&quot;Python&quot;,&quot;Java&quot;],&quot;yearexp&quot;:&quot;3&quot;,&quot;lastused&quot;:&quot;2021&quot;,&quot;st_id&quot;:&quot;942778&quot;}],&quot;Address&quot;:[{&quot;Permanent_Address&quot;:{&quot;House_Number&quot;:null,&quot;City&quot;:null,&quot;State&quot;:null,&quot;Country&quot;:null,&quot;PhoneNumber&quot;:null},&quot;Current_Address&quot;:null,&quot;stId&quot;:&quot;942778&quot;},{&quot;Permanent_Address&quot;:{&quot;House_Number&quot;:null,&quot;City&quot;:null,&quot;State&quot;:null,&quot;Country&quot;:null,&quot;PhoneNumber&quot;:null},&quot;Current_Address&quot;:null,&quot;stId&quot;:&quot;942778&quot;}]}}
+INFO     root:test_End_To_End.py:63 ***************PUT:Update Student Address*****************
+INFO     root:test_End_To_End.py:71 {&quot;Message&quot;:&quot;The requested resource does not support http method &#x27;PUT&#x27;.&quot;}
+INFO     root:test_End_To_End.py:75 ***************GET:Final Student Details After Update*****************
+INFO     root:test_End_To_End.py:78 {&quot;status&quot;:&quot;true&quot;,&quot;data&quot;:{&quot;first_name&quot;:&quot;Test&quot;,&quot;middle_name&quot;:&quot;API&quot;,&quot;last_name&quot;:&quot;Python&quot;,&quot;date_of_birth&quot;:&quot;12-12-1993&quot;,&quot;TechnicalDetails&quot;:[{&quot;id&quot;:24394,&quot;language&quot;:[&quot;Python&quot;,&quot;Java&quot;],&quot;yearexp&quot;:&quot;3&quot;,&quot;lastused&quot;:&quot;2021&quot;,&quot;st_id&quot;:&quot;942778&quot;}],&quot;Address&quot;:[{&quot;Permanent_Address&quot;:{&quot;House_Number&quot;:null,&quot;City&quot;:null,&quot;State&quot;:null,&quot;Country&quot;:null,&quot;PhoneNumber&quot;:null},&quot;Current_Address&quot;:null,&quot;stId&quot;:&quot;942778&quot;},{&quot;Permanent_Address&quot;:{&quot;House_Number&quot;:null,&quot;City&quot;:null,&quot;State&quot;:null,&quot;Country&quot;:null,&quot;PhoneNumber&quot;:null},&quot;Current_Address&quot;:null,&quot;stId&quot;:&quot;942778&quot;}]}}<br/></div></td></tr></tbody></table></body></html>

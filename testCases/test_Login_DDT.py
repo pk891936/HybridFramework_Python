@@ -22,6 +22,8 @@ class Test_002_Login_DDT:
         self.lp = LoginPage(self.driver)
         path = readConfig.getTestDataPath()
         row = ExcelUtils.getRowCount(path,"Sheet1")
+
+        ExcelUtils.writeData(path,"Sheet1",1,5,"salary")
         for r in range(2,row+1):
             username = ExcelUtils.readData(path,"Sheet1",r,1)
             password = ExcelUtils.readData(path, "Sheet1", r, 2)

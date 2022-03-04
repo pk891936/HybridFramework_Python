@@ -19,7 +19,7 @@ def setup(browser):
         self.browser = browser
 
     if browser == 'chrome':
-        browserPath = readConfig.getBrowserPath("chrome")
+        browserPath = readConfig.getPath('driverPathInfo','chrome')
         driver = webdriver.Chrome(browserPath)
         print("*************Launching Chrome Browser**************")
         driver.maximize_window()
