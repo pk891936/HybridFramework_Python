@@ -1,0 +1,5 @@
+Method,Status Code,Bytes,Url,User-agent
+GET,200,198,http://www.referrer.co/bannerad/ad.htm,Mozilla/4.01
+GET,200,28083,http://www.referrer.co/bannerad/ad.htm,Mozilla/4.01
+GET,200,9332,http://www.referrer.co/bannerad/ad7.gif,Mozilla/4.01
+GET,200,207,http://ww.referrer.com/bannerad/click.htm,Mozilla/4.01

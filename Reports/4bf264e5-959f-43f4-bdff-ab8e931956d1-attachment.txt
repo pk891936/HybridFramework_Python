@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_End_To_End.py:69 ***************test_Coops_API*****************
+[32mINFO    [0m root:test_End_To_End.py:70 ***************Post: Eggs-count*****************
+[32mINFO    [0m root:test_End_To_End.py:74 {"action":"eggs-count","success":true,"message":"You have collected a total of 7 eggs today","data":7}

@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_End_To_End.py:15 ***************test_Coops_API*****************
+[32mINFO    [0m root:test_End_To_End.py:16 ***************Post: Barn-unlock*****************
+[32mINFO    [0m root:test_End_To_End.py:21 {"action":"barn-unlock","success":true,"message":"You just unlocked your barn! Watch out for strangers!","data":null}

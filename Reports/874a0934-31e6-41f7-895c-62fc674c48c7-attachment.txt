@@ -1,0 +1,10 @@
+[32mINFO    [0m root:test_End_To_End.py:12 ***************test_AddNew_Student*****************
+[32mINFO    [0m root:test_End_To_End.py:13 ***************Post:Add New Student*****************
+[32mINFO    [0m root:test_End_To_End.py:24 ***************Post:Add Student Technical Skills*****************
+[32mINFO    [0m root:test_End_To_End.py:33 ***************Post:Add Student Address*****************
+[32mINFO    [0m root:test_End_To_End.py:40 ***************GET:Final Student Details*****************
+[32mINFO    [0m root:test_End_To_End.py:43 {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":19689,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"453167"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"453167"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"453167"}]}}
+[32mINFO    [0m root:test_End_To_End.py:53 ***************PUT:Update Student Address*****************
+[32mINFO    [0m root:test_End_To_End.py:60 {"Message":"The requested resource does not support http method 'PUT'."}
+[32mINFO    [0m root:test_End_To_End.py:62 ***************GET:Final Student Details After Update*****************
+[32mINFO    [0m root:test_End_To_End.py:65 {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":19689,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"453167"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"453167"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"453167"}]}}

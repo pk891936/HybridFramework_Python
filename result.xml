@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="DESKTOP-1QJ24LN" name="pytest" skipped="0" tests="2" time="145.080" timestamp="2022-02-08T22:01:03.414090"><testcase classname="test_Login_Actions.Test_001_Login" name="test_Login" time="141.253"><failure message="assert False">self = &lt;test_Login_Actions.Test_001_Login object at 0x00000184684160B8&gt;, setup = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="f392f7097317ac1e1c2b6a9e03c1824a")&gt;
+
+    @pytest.mark.mytest
+    def test_Login(self, setup):
+        self.logger.info("************test_Login*************")
+        self.wb = setup
+        self.driver = driver_mapping(self.wb)
+        self.driver.navigate(self.baseURL)
+        self.logger.info("************Loaded URL*************")
+        self.driver.wait(3)
+        self.lp = LoginPage(self.driver)
+        self.logger.info("************input Username*************")
+        self.driver.sendKeys(self.username,By.ID,self.lp.textbox_username_id)
+        self.logger.info("************input Password*************")
+        self.driver.sendKeys(self.password, By.ID, self.lp.textbox_password_id)
+        self.logger.info("************clicking Login*************")
+        self.driver.elementClick(By.XPATH,self.lp.button_login_xpath)
+        self.logger.info("************Login Successfull*************")
+        self.driver.wait(3)
+        self.logger.info("************Verifying HomePage Title*************")
+        condition = self.driver.verify_title("Dashboard / nopCommerce administration")
+    
+        if condition == True:
+            self.logger.info("************test_HomePage title Passed*************")
+            self.driver.closebrowser()
+            assert True
+        else:
+            self.driver.capturescreen()
+            self.logger.error("************test_HomePage title Failed*************")
+            self.driver.closebrowser()
+&gt;           assert False
+E           assert False
+
+testCases\test_Login_Actions.py:68: AssertionError</failure></testcase><testcase classname="test_Login_Actions.Test_001_Login" name="test_LoginPageTitle" time="49.241" /></testsuite></testsuites>

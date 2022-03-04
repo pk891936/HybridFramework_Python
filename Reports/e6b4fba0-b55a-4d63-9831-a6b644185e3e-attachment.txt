@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_End_To_End.py:48 ***************test_Coops_API*****************
+[32mINFO    [0m root:test_End_To_End.py:49 ***************Post: Eggs-collect*****************
+[32mINFO    [0m root:test_End_To_End.py:53 {"action":"eggs-collect","success":true,"message":"Hey look at that, 2 eggs have been collected!","data":2}

@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_End_To_End.py:26 ***************test_Coops_API*****************
+[32mINFO    [0m root:test_End_To_End.py:27 ***************Post: Toiletseat-down*****************
+[32mINFO    [0m root:test_End_To_End.py:31 {"action":"toiletseat-down","success":true,"message":"You just put the toilet seat down. You\u0027re a wonderful roommate!","data":null}

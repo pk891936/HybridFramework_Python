@@ -1,0 +1,96 @@
+Test_001_Login: 02/08/2022 09:51:01 PM: INFO: ************test_LoginPageTitle*************
+
+Test_001_Login: 02/08/2022 09:51:01 PM: INFO: ************test_Login*************
+
+SeleniumDriver: 02/08/2022 09:51:09 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 02/08/2022 09:51:09 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 02/08/2022 09:51:12 PM: INFO: ************input Username*************
+
+SeleniumDriver: 02/08/2022 09:51:13 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 09:51:13 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 09:51:13 PM: INFO: Data entered
+
+Test_001_Login: 02/08/2022 09:51:13 PM: INFO: ************input Password*************
+
+SeleniumDriver: 02/08/2022 09:51:13 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 09:51:13 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 09:51:14 PM: INFO: Data entered
+
+Test_001_Login: 02/08/2022 09:51:14 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 02/08/2022 09:51:14 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 09:51:36 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 02/08/2022 09:51:36 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 02/08/2022 09:51:39 PM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 02/08/2022 09:51:39 PM: INFO: Your store. Login
+
+Test_001_Login: 02/08/2022 09:51:39 PM: INFO: ************test_LoginPageTitle Passed*************
+
+SeleniumDriver: 02/08/2022 09:51:42 PM: INFO: Element clicked
+
+Test_001_Login: 02/08/2022 09:51:42 PM: INFO: ************Login Successfull*************
+
+Test_001_Login: 02/08/2022 09:51:45 PM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 02/08/2022 09:51:57 PM: ERROR: Verify Title failed
+
+Test_001_Login: 02/08/2022 10:01:14 PM: INFO: ************test_Login*************
+
+Test_001_Login: 02/08/2022 10:01:14 PM: INFO: ************test_LoginPageTitle*************
+
+SeleniumDriver: 02/08/2022 10:01:49 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 02/08/2022 10:01:49 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 02/08/2022 10:01:52 PM: INFO: ************Verifying LoginPage Title*************
+
+SeleniumDriver: 02/08/2022 10:01:52 PM: INFO: Your store. Login
+
+Test_001_Login: 02/08/2022 10:01:52 PM: INFO: ************test_LoginPageTitle Passed*************
+
+SeleniumDriver: 02/08/2022 10:02:58 PM: INFO: Navigated to https://admin-demo.nopcommerce.com
+
+Test_001_Login: 02/08/2022 10:02:58 PM: INFO: ************Loaded URL*************
+
+Test_001_Login: 02/08/2022 10:03:01 PM: INFO: ************input Username*************
+
+SeleniumDriver: 02/08/2022 10:03:02 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 10:03:02 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 10:03:02 PM: INFO: Data entered
+
+Test_001_Login: 02/08/2022 10:03:02 PM: INFO: ************input Password*************
+
+SeleniumDriver: 02/08/2022 10:03:02 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 10:03:02 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 10:03:02 PM: INFO: Data entered
+
+Test_001_Login: 02/08/2022 10:03:02 PM: INFO: ************clicking Login*************
+
+SeleniumDriver: 02/08/2022 10:03:02 PM: INFO: Element found
+
+SeleniumDriver: 02/08/2022 10:03:19 PM: INFO: Element clicked
+
+Test_001_Login: 02/08/2022 10:03:19 PM: INFO: ************Login Successfull*************
+
+Test_001_Login: 02/08/2022 10:03:22 PM: INFO: ************Verifying HomePage Title*************
+
+SeleniumDriver: 02/08/2022 10:03:22 PM: INFO: admin-demo.nopcommerce.com
+
+SeleniumDriver: 02/08/2022 10:03:23 PM: INFO: Captured screenshot
+
+Test_001_Login: 02/08/2022 10:03:23 PM: ERROR: ************test_HomePage title Failed*************
+
