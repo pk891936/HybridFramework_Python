@@ -3,8 +3,8 @@ import pytest
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage import AddCustomer
 from pageObjects.SearchCustomerPage import SearchCustomer
-from utilities.readProperties import readConfig
-from utilities.customlogger import logGenerator
+from Utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator
 
 class Test_SearchCustomerByEmail_004:
     baseURL = readConfig.getApplicationURL()

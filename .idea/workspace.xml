@@ -1,120 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beae78db-8452-400c-bc13-f22a100dfa20" name="Default Changelist" comment="">
+    <list default="true" id="beae78db-8452-400c-bc13-f22a100dfa20" name="Default Changelist" comment="Complete framework">
+      <change afterPath="$PROJECT_DIR$/practice/secHighest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Hybrid_Framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hybrid_Framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/CoopsAPI_Automation/test_End_To_End.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Automation/CoopsAPI_Automation/test_End_To_End.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/TestCases/test_End_To_End.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Automation/TestCases/test_End_To_End.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Automation/TestCases/test_peopleAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Automation/TestCases/test_peopleAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configurations/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Configurations/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLReports/APITestreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLReports/APITestreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLReports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLReports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abcd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice/abcd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/practice/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datanew.csv" beforeDir="false" afterPath="$PROJECT_DIR$/practice/datanew.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/dummy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/practice/file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileupload.au3" beforeDir="false" afterPath="$PROJECT_DIR$/practice/fileupload.au3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/AddcustomerPage_Actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/AddcustomerPage_Actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/SearchCustomerPage_Action.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/SearchCustomerPage_Action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs asked.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/programs asked.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/FrequencyofChr_InString.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/FrequencyofChr_InString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/class_One_one_Relationship.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/class_One_one_Relationship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/dummy1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/excelSheet_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/excelSheet_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/jsonfile_modify_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/jsonfile_modify_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/StartLetter_word_ofString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/powerofTwo.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/powerofTwo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/tableDataExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/tableDataExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_Login_Actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_Login_Actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_Login_Allure.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_Login_Allure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_Login_DDT.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_Login_DDT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_addCustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_addCustomer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_addCustomer_Actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_addCustomer_Actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_searchCustomerByEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_searchCustomerByEmail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_searchCustomerByEmail_Action.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_searchCustomerByEmail_Action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_searchCustomerByName.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_searchCustomerByName.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_searchCustomerByName_Action.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_searchCustomerByName_Action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_tableDataExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_tableDataExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/testdata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/ExcelUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/ExcelUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/customlogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/customlogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/module_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/module_mapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/readProperties.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/readProperties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/selenium_driver.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/test_addCustomer_Actions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/test_Login_DDT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="57" column="31" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/API_Automation/TestCases/test_End_To_End.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities/ExcelUtils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_Automation/CoopsAPI_Automation/test_End_To_End.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_Automation/CoopsAPI_Automation/getToken.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities/selenium_driver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configurations/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_Automation/TestCases/test_peopleAPI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -218,11 +164,18 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="473" />
     <option name="y" value="28" />
     <option name="width" value="747" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectId" id="2F6QlViSsaMVLIVokgsR4ABSNIs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -266,37 +219,34 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Automatin/MyAutomation/Frameworks/HybridFramework_Python/practice/Codeyug&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Praveen\PycharmProjects\Hybrid_Framework\Drivers" />
-      <recent name="C:\Users\Praveen\PycharmProjects\Hybrid_Framework\testCases" />
-      <recent name="C:\Users\Praveen\PycharmProjects\Hybrid_Framework" />
-      <recent name="C:\Users\Praveen\PycharmProjects\Hybrid_Framework\HackerEarth\Classes" />
-      <recent name="C:\Users\Praveen\PycharmProjects\Hybrid_Framework\API_Automation\TestCases" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\practice\Codeyug" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\practice" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\API_Automation\UdemyAPIAutmation\GETRequests" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\API_Automation\UdemyAPIAutmation\Input_Payloads" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\API_Automation\UdemyAPIAutmation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\API_Automation\UdemyAPIAutmation\POSTRequests" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\API_Automation\UdemyAPIAutmation\PUTRequests" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\practice" />
+      <recent name="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\API_Automation\UdemyAPIAutmation\GETRequests" />
       <recent name="C:\Users\Praveen\PycharmProjects\Hybrid_Framework\API_Automation\YouTubeAPI" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.dummy (1)">
-    <configuration name="FrequencyofChr_InString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dummy">
+    <configuration name="GET_Products" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hybrid_Framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,11 +254,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_Automation/WooCommerceAPI_DB" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/FrequencyofChr_InString.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_Automation/WooCommerceAPI_DB/GET_Products.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dummy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demobvcb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hybrid_Framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,7 +279,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dummy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demobvcb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,49 +300,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/dummy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="jsonfile_modify_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hybrid_Framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/jsonfile_modify_dict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tableDataExtraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hybrid_Framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCases/tableDataExtraction.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Automatin\MyAutomation\Frameworks\HybridFramework_Python\practice\dummy1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -411,12 +319,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--alluredir\u003d./reports/report&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_Login_Actions.Test_001_Login.test_LoginPageTitle" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_End_To_End.test_AddNew_Student" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Hybrid_Framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Praveen\PycharmProjects\Hybrid_Framework\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_Automation/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--alluredir\u003d./reports/report&quot;" />
+      <option name="_new_target" value="&quot;test_End_To_End.test_AddNew_Student&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_Login.Test_001_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Hybrid_Framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -426,29 +351,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--alluredir\u003d./reports/report&quot;" />
-      <option name="_new_target" value="&quot;test_Login_Actions.Test_001_Login.test_LoginPageTitle&quot;" />
+      <option name="_new_target" value="&quot;test_Login.Test_001_Login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_Login_Actions.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Hybrid_Framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Praveen\PycharmProjects\Hybrid_Framework\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--alluredir\u003d./reports/report&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCases/test_Login_Actions.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.dummy" />
-      <item itemvalue="Python.FrequencyofChr_InString" />
-      <item itemvalue="Python.tableDataExtraction" />
-      <item itemvalue="Python.jsonfile_modify_dict" />
-      <item itemvalue="Python.dummy (1)" />
-      <item itemvalue="Python tests.pytest for test_Login_Actions.Test_001_Login.test_LoginPageTitle" />
+      <item itemvalue="Python.GET_Products" />
+      <item itemvalue="Python.demobvcb" />
+      <item itemvalue="Python tests.pytest for test_End_To_End.test_AddNew_Student" />
+      <item itemvalue="Python tests.pytest for test_Login.Test_001_Login" />
+      <item itemvalue="Python tests.pytest in test_Login_Actions.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dummy (1)" />
-        <item itemvalue="Python.jsonfile_modify_dict" />
-        <item itemvalue="Python.FrequencyofChr_InString" />
-        <item itemvalue="Python tests.pytest for test_Login_Actions.Test_001_Login.test_LoginPageTitle" />
-        <item itemvalue="Python.tableDataExtraction" />
+        <item itemvalue="Python.GET_Products" />
+        <item itemvalue="Python.demobvcb" />
+        <item itemvalue="Python tests.pytest for test_End_To_End.test_AddNew_Student" />
+        <item itemvalue="Python tests.pytest in test_Login_Actions.py" />
+        <item itemvalue="Python tests.pytest for test_Login.Test_001_Login" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -530,6 +473,17 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="committed API Test Automation" />
@@ -806,7 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python/Python37/Lib/logging/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../../../../../Python/Python37/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-629" />
       </provider>

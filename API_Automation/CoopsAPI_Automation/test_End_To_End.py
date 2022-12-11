@@ -1,8 +1,9 @@
 import requests
+import pytest
 import json , jsonpath
 import allure
-from utilities.customlogger import logGenerator
-from utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator
+from Utilities.readProperties import readConfig
 from API_Automation.CoopsAPI_Automation.getToken import get_AuthToken
 
 USER_ID= 2229

@@ -1,4 +1,4 @@
-from utilities.selenium_driver import SeleniumDriver
+from Utilities.selenium_driver import SeleniumDriver
 
 class driver_mapping(SeleniumDriver):
 

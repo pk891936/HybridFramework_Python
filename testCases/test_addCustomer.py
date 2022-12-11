@@ -2,8 +2,8 @@ import pytest
 import time
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage import AddCustomer
-from utilities.readProperties import readConfig
-from utilities.customlogger import logGenerator
+from Utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator
 import string
 import random
 

@@ -1,4 +1,4 @@
-from utilities.module_mapping import driver_mapping
+from Utilities.module_mapping import driver_mapping
 from selenium.webdriver.common.by import By
 
 class SearchCustomer(driver_mapping):

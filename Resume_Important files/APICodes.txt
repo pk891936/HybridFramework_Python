@@ -1,0 +1,32 @@
+API Testing Codes:
+
+200: This code is used for a successful request.
+
+201: For a successful request and data was created.
+
+204: For empty response.
+
+400: This is used for Bad Request. If you enter something wrong or you missed some required parameters, then the request would not be understood by the server, and you will get 400 status code.
+
+401: This is used for Unauthorized Access. If the request authentication failed or the user does not have permissions for the requested operations, then you will get a 401 status code.
+
+403: This is for Forbidden or Access Denied.
+
+404: This will come if the Data Not Found.
+
+405: This will come if the method not allowed or if the requested method is not supported.
+406 Not Acceptable The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.[38] See Content negotiation.
+407 Proxy Authentication Required (RFC 7235) The client must first authenticate itself with the proxy.[39]
+408 Request Timeout The server timed out waiting for the request. According to HTTP specifications: "The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time."[40]
+409 Conflict Indicates that the request could not be processed because of conflict in the current state of the resource, such as an edit conflict between multiple simultaneous updates.
+
+500: This code is used for Internal Server Error.
+502 Bad Gateway The server was acting as a gateway or proxy and received an invalid response from the upstream server.[63]
+503 Service Unavailable  The server cannot handle the request (because it is overloaded or down for maintenance). Generally, this is a temporary state.[64]
+504 Gateway Timeout The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.[65]
+505 HTTP Version Not Supported The server does not support the HTTP protocol version used in the request.[66]
+506 Variant Also Negotiates (RFC 2295) Transparent content negotiation for the request results in a circular reference.[67]
+507 Insufficient Storage (WebDAV; RFC 4918) The server is unable to store the representation needed to complete the request.[16]
+508 Loop Detected (WebDAV; RFC 5842) The server detected an infinite loop while processing the request (sent instead of 208 Already Reported).
+510 Not Extended (RFC 2774) Further extensions to the request are required for the server to fulfil it.[68]
+511 Network Authentication Required (RFC 6585)

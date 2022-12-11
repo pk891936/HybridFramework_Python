@@ -1,18 +1,17 @@
 import pytest
 from selenium.webdriver import *
 from pageObjects.LoginPage import LoginPage
-from utilities.readProperties import readConfig
-from utilities.customlogger import logGenerator
-from utilities import ExcelUtils
+from Utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator
+from Utilities import ExcelUtils
+
+
 class Test_002_Login_DDT:
-    #path = readConfig.getTestDataPath()
+    # path = readConfig.getTestDataPath()
 
     baseURL = readConfig.getApplicationURL()
-
-
     logger = logGenerator.logGen()
-
-    def test_Login_DDT(self,setup):
+    def test_Login_DDT(self, setup):
         self.logger.info("************Test_002_Login_DDT**************")
         self.logger.info("************test_Login*************")
         self.driver = setup
@@ -21,11 +20,11 @@ class Test_002_Login_DDT:
         self.driver.implicitly_wait(5)
         self.lp = LoginPage(self.driver)
         path = readConfig.getTestDataPath()
-        row = ExcelUtils.getRowCount(path,"Sheet1")
+        row = ExcelUtils.getRowCount(path, "Sheet1")
 
-        ExcelUtils.writeData(path,"Sheet1",1,5,"salary")
-        for r in range(2,row+1):
-            username = ExcelUtils.readData(path,"Sheet1",r,1)
+        ExcelUtils.writeData(path, "Sheet1", 1, 5, "salary")
+        for r in range(2, row + 1):
+            username = ExcelUtils.readData(path, "Sheet1", r, 1)
             password = ExcelUtils.readData(path, "Sheet1", r, 2)
             exp = ExcelUtils.readData(path, "Sheet1", r, 3)
             list_status = []
@@ -64,13 +63,8 @@ class Test_002_Login_DDT:
             self.logger.info("**********test_Login_DDT Passed***********")
             self.driver.quit()
             assert True
-        else :
+        else:
             self.logger.info("**********test_Login_DDT Failed***********")
             self.driver.quit()
             assert False
         self.logger.info("***************test_Login_DDT completed***********************")
-
-
-
-
-

@@ -1,0 +1,406 @@
+Python is a general purpose high level programming language-->understandable by programmer like java c c++
+Dynamically typed Programming language
+
+==========================================================================
+Functional Programming language from C
+OOP features from C++
+Scripting language features from Pearl and Shell Scripting
+Modular language features from Module-3
+
+Most of the syntax is derived from C and ABC languages
+
+
+Python===>Named after "The Complete Monty Python's Circus" famous fun show broadcasted in BBC
+
+Guido Van Rossam 1989  while working at National Research Institute NetherLands
+
+1991==>Feb 20th 1991  ==> Officially available
+
+
+==============================================
+where we can use Python:
+----------------------------
+1. To develop desktop applications
+2. For developing Web applications
+3. Database applications
+4. For developing Network programming
+5. For developing games
+6. For data analysis
+7. For Machine Learning
+8. AI applications
+9. For IoT
+
+================================================
+Limitations:
+--------------------------------------------
+1. Performance is less when compared to other languages
+2. For developing Mobile applications
+
+==================================================
+Some Python applications:
+---------------------------------------------
+1.Youtube
+2.Google
+3.Dropbox
+Organisations:
+-----------------
+4.Bit torrentz
+5.NASA
+
+========================================================================
+Features of Python:
+------------------------------------------------
+1. Simple and Easy to Learn
+2. Open source/Freeware:  Jython(u can customise the source code)==> Customised version of python to work with Java applications
+3. High Level Programming Language
+4. Platform Independent
+5. Portability: same program same result in different machines after migration
+6. Dynamically Type PL
+7. Both Procedure Oriented and OOPS:
+----------------------------------------
+C==> Procedure Oriented
+Java==> Object Oriented
+Python==> Both Procedure Oriented and OOPS
+----------------------------------------
+8.  Interpreted :===> No need to compile separately ==>PVM takes care of compilation
+9.  Extensible : ==>Other language code can be used in Python
+10. Embedded: ===> can use Python in Other languages
+11. Extensive Library:==> can use already existing libraries  
+
+===============================================================================
+Flavors of Python:
+---------------------------------------------
+1.CPython : ==> To work with C applications
+2.Jython/JPython : ==> To work with Java applications
+3.IronPython : ==> To work with C# applications
+4.PyPy : ==> Python for speed ==> JIT(JustInTime) Compiler is implemented internally==> Converts code into Machine code and makes the execution fast when  called again
+5.Ruby Python :==> For Ruby applications
+6.AnacondaPython :==>For handling BigData and Hadoop
+7.Stakeless :==>Python for concurrency
+
+================================================================================
+Python Versions:
+-------------------------------------------------------------------
+Python 1.0 V: 1994 Jan
+Python 2 : OCt 2000
+Python 3 : Dec 2008
+
+=================================================================================
+Identifier :
+------------------------
+=>Name in Python program is called "Identifier"
+=>can be classname, variable name or function name etc
+
+Rules to define Identifiers:
+--------------------------------------
+=> Only allowed characters are :
+alphabets (a-z,A-Z)
+numbers(0-9)
+underscore(_)
+=> Should not start with digits
+=> Identifiers are case sensitive
+=> Should not use reserved keywords
+=> No length limit => not recommended to use too lengthy identifier
+-------------------------------------------
+Note:
+-------------------------------------------
+1. _abc indicates it is protected identifier
+2. __abc =>strongly private identifier
+3. __abc__ =>language defined special identifier (basically for constructor concept)
+Ex: __init__
+  __name__
+
+==========================================================================================
+Reserved word and Keywords:
+--------------------------------------------------------------------------
+Reserved word associated with functionality is called "Keyword"
+Ex: if,elif,else
+
+Reserved words associated with literals==> Reserved Literals
+bool==> True, False
+  None
+  
+  
+33 Keywords:
+----------------------------------------
+True,False,None
+and, or, not , is
+if, elif, else ====> switch is not there in Python
+while, for, break, continue, return, in, yield ==> Do while is not there in Python
+Try, except, finally, raise, assert ==> exception keywords  (except <= catch(java)  raise<= throw(java))
+import, from, as, class, def, pass, global, nonlocal, lambda, del, with
+
+=============================================================================================
+DataTypes: == >>14
+------------------------------------------------------
+int
+float
+str
+bool                              
+complex        long
+bytes        double       ===>> not available in Python
+bytearray       char
+range
+list
+tuple
+set
+frozenset
+dict
+None
+============================================================================================
+Fundamental Datatypes:
+-----------------------------------------------------------------------
+1.int
+2.float
+3.str
+4.bool
+5.complex
+
+Note:=>1. ch='a' -> is a string datatype
+  =>2. 'long' data type is available in Python 2 but not in Python 3
+  =>3. only float but not double datatype
+============================================================================================
+Python in-built functions:
+-------------------------------------------------------------------
+type()
+id()
+print()
+
+dir(a)` :====>>  to see the list of inbuilt methods you can have on the variable.
+
+---------------------------------------------------------------------
+*****Note:==>Everything is an object only
+   Modulo operation is not valid for complex numbers
+=============================================================================================  
+Slicing :Slicing in Python is a feature that enables accessing parts of sequences like strings, tuples, and lists.
+You can also use them to modify or delete the items of mutable sequences such as lists.
+----------------------------------
+s='dfghj'==> s[begin:end] by default s[:]-> full string from begin
+   ==> s[begin:] -> string from begin index to end of string
+   ==> s[:end] -> string from starting character to end index of string
+   ==> s[begin:end:] -> string from begin index to end index of string with default increment '1'
+   ==> s[begin:end:step] -> string from begin index to end index of string with increment 'stepno.'
+
+=================================================================================================
+Type Casting/Conversions:
+---------------------------------------------------------
+int(a)  : ==> int(123.456) = 123 =>int(True)= 1 => int('1234') = 1234
+-------------------------------------------------------------------------------------------------
+Note: ==> any type to int is possible except "complex to int"
+      ==> string to int is possible only when string contains integral base 10 values
+======================================================================
+  
+float(a)  :  ==> float(10) = 10.0  => float(True)=1.0 => float('1234')=1234.0
+-----------------------------------------------------------------------------------------------------
+Note: ==> any type to float is possible except "complex to float"
+      ==> string to float is possible only when string contains int type or float type with integral base 10 values
+
+======================================================================
+
+complex(a)  ==> complex(10)= 10+0j => complex(True)= 1+0j =>complex(10.5)= 10.5+0j  =>complex('12.98') = 12.98+0j
+   ==> complex(1,2)=1+2j  => complex(True,False)=1+0j =>complex(10.5,12.89)= 10.5+12.89j =>complex('11.11','12')= 11.11+12j
+-------------------------
+
+======================================================================
+
+bool(a)     ==> bool(0)=False      =>bool(1)=True for int to bool
+   ==> bool(0.000)=False  =>bool(12.98)=True
+   ==> bool(0+oj)=False   =>bool(0+1j)=True
+   ==> bool('')=False     =>bool('12')=True     "Empty==False else 'True'"
+   ==> bool(' ')=True
+-------------------------
+Note: ==> any type to bool is possible
+      ==> for int type => for '0'=False else for non-zero(+/- x)=True
+   ==> for complex type ==> for both real and img '0'=False else True
+   ==>
+======================================================================
+
+str(a)      ==>str(123)='123' =>str(12.0)='12.0' =>str(1+2j)='1+2j' =>str(True)='True'
+-----------------------------
+Note: ==> any type to string is possible
+
+
+===================================================================================================
+Object Reusability:
+--------------------------------------------------
+a1=10 a2=10 a3=10......a1crore=10
+=>instead of creating 1crore objects Python refers all the 1crore elements to one object(10) thereby improving memory allocation and performance
+=> id(a1)=id(a2) or a1 is a2=>True  (both can be used to check the same reference object or not)
+=> if we are changing any one of the object like (a3=20),immutability concept applies and a new object a3 is created not affecting the memory reusability and performance
+--------------------
+range for objects reusability:
+-------------------------------
+int==> 0 to 256
+float==>new object created everytime
+complex==>new object created everytime
+bool==>always existing object reused
+str==>always existing object reused
+=============================================================================================================
+List DataType: []             append(), remove(), pop(), Slice, Reverse(), min() & max(), concatenate(), count(), multiply(), sort(), index(), clear()
+--------------------------------
+==>insertion order is preserved
+==>Duplicates are allowed
+==>heterogenous objects are allowed 
+==>Growable nature
+==>values should be enclosed within []
+==>Mutable "append" method should be used (s.append(10))
+=============================================================================================================
+Tuple DataType:()
+--------------------------------
+==>Immutable List Type (cant add or remove)
+==>values should be enclosed within () 
+=============================================================================================================
+SET DataType:{}
+--------------------------------
+==>insertion order is not preserved
+==>Duplicates are not allowed
+==>heterogenous objects are allowed 
+==>Growable nature
+==>values should be enclosed within {}
+==>Mutable  "add" method should be used(s.add(10))
+==>order is based on python # concept
+==>slice concept is not applicable
+==>indexing concept is not applicable
+--------------------------------------
+FrozenSet:()
+------------------------
+==>immutable version of Set
+==>fs=frozenset(s)
+=============================================================================================================
+Dictionary DataType:{}
+--------------------------------
+==>insertion order is preserved
+==>Duplicates are not allowed
+==>Key-Value pair heterogenous objects are allowed 
+==>Growable nature
+==>values should be enclosed within {}
+==>Mutable
+==================================================================================================================
+Bytes vs Bytesarray:
+-------------------------------------------------
+Bytes is immutable but Bytesarray is Mutable
+allowed values: 0 to 255
+=============================================================================================================
+Range DataType:
+--------------------------------
+==>range(10)==> 0 to 9
+==>Immutable
+---------------
+Representation:
+-------------------
+range(num)==> 0 to n-1
+range(begin, end)==> begin to end-1
+range(begin,end,step)==> begin to end-1 with increment of value "step"
+
+Diff. btwn range n xrange:
+range() returns the list, all the operations that can be applied on the list can be used on it.
+On the other hand, as xrange() returns the xrange object, operations associated to list cannot be applied on them, hence a disadvantage.
+
+range() function returns the list of integers whereas x range() function returns a generator object. This generator object can be used to return a list of integers by using for loop. Also, only a specific range is displayed when needed and hence it is called lazy evaluation.
+=====================================================================================================================================================
+Notes:
+----------------------------------------------------------------------------------------------------------------
+1.Bytes and Bytesarray : used to represent of images, videos, files
+2.Long datatype available in Python-2 and not in Python-3
+3.No Char datatype..........str used to represent char
+=====================================================================================================================================================
+None DataType:
+----------------------------------------------------------------------------------------------------------------
+to return null values in a function
+def f1(): print("Hello")
+print(f1())==> Hello None
+==========================================================================================================================
+Operators:
+-----------------------------------
+/===> float arithmatic operator(10.5/2==>5.25)
+//===>floor division   int type return (10.5//2==>5)
+% ===> reminder ans(10.5%2==>5.0)
+* ===>String repetition operator ( java*2==javajava)
++ ===> String concatenation operator ( java+python==javapython )
+==========================================================================================================
+== vs is operator:
+-----------------------------------
+a==b   ==> content comparision
+a is b ==> reference comparision
+
+==========================================================================================================
+Input and Output Statements:
+------------------------------
+1.raw_input(): 1.exists in Python2 only
+      2.Return type is always a string
+input() in Python2:====>Return type is always a string
+
+2.input(): 1.Python3 has input() function only
+     2.Return type is always a string
+==========================================================================================================
+eval(): powerful expression and it automatically avaluates a condition or expression
+==> eval("10+20+30")=60
+
+==========================================================================================================
+Command Line Arguments:
+-----------------------------------------------------------------------------------
+argv --> it is a list in "Sys" module
+    
+Output statements:
+-------------------------------------------------------
+print()
+Form-1 ==> print()--> one new blank line
+Form-2 ==> print(string)-->print("**********String with * and + operators**********")  ==>print("print"*3)=printprintprint  ==>print(3+2)==5 ==>print("D"+"S")=DS
+      -->print("*******String with separator**********")      ==>print("print","text")=print text  ==>print(a,b,sep='')==ab
+      -->print("*******String with end**********")
+      -->print("Formatted string" : %i,%d,%f,%s,) ==> print("c value is %d" %c)
+
+==========================================================================================================
+Flow Control:
+------------------------------------------------------------------
+Defines order in which statements are executed in runtime when multiple lines of code is present
+----------------------------------------------------------------
+1.Selection/Conditional Statements:   2.Iterative Statements:         					3.Transfer Statements:
+-----------------------------------   ------------------------------------     ---------------------------------------
+  1.if         						1.for( sequence can be string,collection)    	1.break   == stop the iteration & execute rem
+  2.if-else        					2.while             							2.pass    == does nothing(null statement execution)
+  3.if-elif-else                     												3.continue== forces the iteration to continue for next
+Note: 4.switch is not present in python                								4.return  (in case of functions)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Lambda Function:
+Anonymous function that can take any number of arguments, but can only have one expression.
+lambda argument_list : expression    (lambda n:n*n for n in range(10))
+Note: By using Lambda Functions we can write very concise code so that readability of the program will be improved.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Generator:
+Generators are special function which doesnot return a single value instead it returns an iterator object with sequence of values
+yield statement is used in generators
+
+   def countdown(n):
+    print("Start Countdown")
+    while(n>0):
+     yield n
+     n=n-1
+   values=countdown(5)
+
+Advantages of Generator Functions:
+1. when compared with class level iterators, generators are very easy to use
+2. Improves memory utilization and performance.
+3. Generators are best suitable for reading data from large number of large files
+4. Generators work great for web scraping and crawling.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Stacks:
+
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
+In stack, a new element is added at one end and an element is removed from that end only. The insert and delete operations are often called push and pop.
+
+Stack in Python can be implemented using the following ways:
+
+1.list  --->>append() -add pop()--remove in LIFO order
+2.Collections.deque --->> SAME AS LIST but faster
+3.queue.LifoQueue--->>
+_________________________________________________________________________________________________________________________________________________________________
+Problems if lists were used as a key of dictionaries -----dict keys can be tuple,string
+=======================================================
+Lists are mutable objects which means that we can change values inside a list append or delete values of the list . So if a hash function is generated from a list and then the items of the lists changed, the dictionary will generate a new hash value for this list and could not find it.
+
+For example, If the list is a = [1, 2, 3, 4, 5] and supposes hash of a list is the sum of values inside the list. So hash(a) = 15. Now we append 6 to a . So a = [1, 2, 3, 4, 5, 6] hash(a) = 21. So hash value of a changed. Therefore it can not be found inside the dictionary.
+
+Another problem is different lists with the same hash value. If b = [5, 5, 5] hash(b) = 15. So if a (From the above example with the same hash value) is present is inside the dictionary, and if we search for b. Then the dictionary may give us the wrong result.

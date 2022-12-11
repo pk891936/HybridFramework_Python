@@ -2,9 +2,9 @@ import pytest,logging
 import time
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage_Actions import AddCustomer
-from utilities.readProperties import readConfig
-from utilities.customlogger import logGenerator as lg
-from utilities.module_mapping import driver_mapping
+from Utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator as lg
+from Utilities.module_mapping import driver_mapping
 from selenium.webdriver.common.by import By
 import string
 import random

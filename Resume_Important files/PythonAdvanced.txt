@@ -1,0 +1,354 @@
+****************OOPS**************************
+Class:
+In Python everything is an object. To create objects we require class(like a plan or blueprint)
+Class--> representing Properties(attributes) and actions(behvaiour) of an object
+                                 by variables     by methods
+--------------------------------------------------------------------------------------------------
+Object: --> Physical existance of a class
+s = Student()     student is a class
+                  s--> reference variable
+_____________________________________________________________________________________________________
+Self variable:
+self is the default variable which is always pointing to current object (like this keyword in Java)
+By using self we can access instance variables and instance methods of object.
+-----------------------------------------------------------------------------------------------------
+1. Instance Variables:
+If the value of a variable is varied from object to object, then such type of variables are called instance variables.
+For every object a separate copy of instance variables will be created.
+---------------------------------------------------------------------------
+Where we can declare Instance variables:
+1. Inside Constructor by using self variable
+2. Inside Instance Method by using self variable
+3. Outside of the class by using object reference variable
+_______________________________________________________________________________________________________________________________________________
+
+Constructor Concept:
+☕ Constructor is a special method in python.
+☕ The name of the constructor should be __init__(self)
+☕ Constructor will be executed automatically at the time of object creation.
+☕ The main purpose of constructor is to declare and initialize instance variables.
+☕ Per object constructor will be exeucted only once.
+☕ Constructor can take atleast one argument(atleast self)
+☕ Constructor is optional and if we are not providing any constructor then python will provide default constructor.
+_______________________________________________________________________________________________________________________________________________
+Destructors:
+Destructor is a special method and the name should be __del__ Just before destroying an object Garbage Collector always calls destructor to perform clean up activities (Resource deallocation activities like close database connection etc). Once destructor execution completed then Garbage Collector automatically destroys that object.
+Note: The job of destructor is not to destroy object and it is just to perform clean up activities.
+_______________________________________________________________________________________________________________________________________________
+
+Polymorphism--->>> Many forms
+Overloading:
+We can use same operator or methods for different purposes.
+There are 3 types of overloading
+1. Operator Overloading
+2. Method Overloading
+3. Constructor Overloading
+--------------------------------------------------------------------------------------------------------------------------------------
+Operator Overloading::
+For every operator Magic Methods are available. To overload any operator we have to override that Method in our class.
+Internally + operator is implemented by using __add__() method.This method is called magic method for + operator.
+We have to override this method in our class.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Method Overloading:
+If 2 methods having same name but different type of arguments then those methods are said to be overloaded methods.
+Eg: m1(int a) m1(double d)
+But in Python Method overloading is not possible.
+If we are trying to declare multiple methods with same name and different number of arguments then Python will always "consider only last method."
+-------------------------------------------------------------
+How we can handle overloaded method requirements in Python:
+-------------------------------------------------------------
+Most of the times, if method with variable number of arguments required then
+we can handle with default arguments or with variable number of argument methods.
+__________________________________________________________________________________________________
+Constructor Overloading:
+Constructor overloading is not possible in Python. If we define multiple constructors then the last constructor will be considered.
+_____________________________________________________________________________________________________
+Method overriding:
+What ever members available in the parent class are by default available to the child class through inheritance. If the child class not satisfied with parent class implementation then child class is allowed to redefine that method in the child class based on its requirement. This concept is called overriding. Overriding concept applicable for both methods and constructors.
+
+From Overriding method of child class,we can call parent class method also by using super() method.
+------------------------------------------------------------------------------------------------------------------------
+OOPS 4----- Abstract,Interference ....
+------------------------------------------
+Abstract Method:
+Abstract method has only declaration but not implementation.
+In python we can declare abstract method by using @abstractmethod decorator
+----------------------------------------------------------------------------
+Abstract class::
+If a class contains atleast one abstract method and if we are extending ABC class then instantiation is not possible.
+"abstract class with abstract method instantiation is not possible"
+Parent class abstract methods should be implemented in the child classes. otherwise we cannot instantiate child class.If we are not creating child class object then we won't get any error.
+-------------------------------------------------------------------------------------------------------------------------
+Interfaces In Python:
+In general if an abstract class contains only abstract methods such type of abstract class is considered as interface.
+Note: The inbuilt function globals()[str] converts the string 'str' into a class name and returns the classname.
+--------------------------------------------------------
+Concreate class vs Abstract Class vs Inteface:
+1. If we dont know anything about implementation just we have requirement specification then we should go for interface.
+2. If we are talking about implementation but not completely then we should go for abstract class.(partially implemented class)
+3. If we are talking about implementation completely and ready to provide service then we should go for concrete class.
+_____________________________________________________________________________________________________
+Public, Protected and Private Attributes--->Accessors::
+----------------------------------------
+Public:
+By default every attribute is public. We can access from anywhere either within the class or from outside of the class.
+Protected:
+Protected attributes can be accessed within the class anywhere but from outside of the class only in child classes. We can specify an attribute as protected by prefexing with _ symbol.
+Ex:-  _variablename=value
+Note:- But is is just convention and in reality does not exists protected attributes.
+
+Private:-
+private attributes can be accessed only within the class.i.e from outside of the class we cannot access. We can declare a variable as private explicitly by prefexing with 2 underscore symbols.
+syntax: __variablename=value
+----------------------------------------------------------------------------------------------------------------------------------------------------
+__str__() method:
+-------------------
+Whenever we are printing any object reference internally __str__() method will be called which is returns string in the following format
+<__main__.classname object at 0x022144B0>
+To return meaningful string representation we have to override __str__() method.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+str() returns a string containing a nicely printable representation object. The main purpose of str() is for readability.It may not possible to convert result string to original object.
+But repr() returns a string containing a printable representation of object. The main goal of repr() is unambigouous. We can convert result string to original object by using eval() function,which may not possible in str() function.
+-------------------------------------------------------------------------------------------------------
+Synchronization::::
+Synchronization means at a time only one Thread. The threads will be executed one by one so that we can overcome data
+inconsistency problems.
+In Python, we can implement synchronization by using the following
+1. Lock   --> Note:If the lock is held and any thread attempts to acquire lock, then it will be blocked,even the same thread is already holding that lock.
+                   If the Thread calls recursive functions or nested access to resources,then the thread may trying to
+                   acquire the same lock again and again,which may block our thread.
+2. RLock  --> Note:1. Only owner thread can acquire the lock multiple times
+       2. The number of acquire() calls and release() calls should be matched
+3.Semaphore-->Note:      s=Semaphore(3)
+     In this case Semaphore object can be accessed by 3 threads at a time.The remaining threads have
+     to wait until releasing the semaphore.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Inter Thread Communication:
+Some times as the part of programming requirement, threads are required to communicate with
+each other. This concept is nothing but interthread communication.
+In Python, we can implement interthread communication by using the following ways
+1. Event      --> event= threading.Event()
+====>>>>>>> event.set(), event.clear(), event.wait(), event.isSet(),
+2. Condition  ---> condition = threading.Condition()
+====>>>>>>> condition.acquire(), condition.release(), condition.wait()|wait(time), condition.notify(), condition.notifyAll()
+3. Queue      ---> queue = threading.Queue()
+====>>>>>>>queue.put(), queue.get()
+
+_____________________________________________________________________________________________________
+File Handling::::-->
+f=open('filename.txt', mode)
+f.close()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+FileMOdes::::
+1. r --> open an existing file for read operation. The file pointer is positioned at the beginning of the file.If the specified file does not exist then
+   we will get FileNotFoundError.This is default mode.
+2. w --> open an existing file for write operation. If the file already contains some data then it will be overridden. If the specified file is not
+    already avaialble then this mode will create that file.
+3. a --> open an existing file for append operation. It won't override existing data.If the specified file is not already avaialble then
+         this mode will create a new file.
+4. r+ --> To read and write data into the file. The previous data in the file will not be deleted.The file pointer is placed at the beginning of the file.
+5. w+ --> To write and read data. It will override existing data.
+6. a+ --> To append and read data from the file.It wont override existing data.
+7. x --> To open a file in exclusive creation mode for write operation. If the file already exists then we will get FileExistsError.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+read()     --> To read total data from the file
+read(n)     --> To read 'n' characters from the file
+readline()  --> To read only one line
+readlines() --> To read all lines into a list
+
+_________________________________________________________________________________________________________________________________________________________________
+Zipping and Unzipping Files:::::
+-----------------------------------------------------------------------------------------------------
+f = ZipFile("files.zip","w","ZIP_DEFLATED")
+f = ZipFile("files.zip","r",ZIP_STORED)
+1. To Know Current Working Directory:                                  cwd=os.getcwd()
+2. To create a sub directory in the current working directory:         os.mkdir("mysub")
+3. To create a sub directory in mysub directory:                       os.mkdir("mysub/mysub2")
+4. To create multiple directories like sub1 in that sub2 in that sub3: os.makedirs("sub1/sub2/sub3")
+5. To remove a directory:                                              os.rmdir("mysub/mysub2")
+6. To remove multiple directories in the path:                         os.removedirs("sub1/sub2/sub3")
+7. To rename a directory:                                              os.rename("mysub","newdir")
+8. To know contents of directory:                                      os.listdir(".")----path reference
+9. To know contents of directory including sub directories:             walk(path,topdown=True,onerror=None,followlinks=False)
+path-->Directory path. cwd means .
+ topdown=True --->Travel from top to bottom
+ onerror=None --->on error detected which function has to execute.
+ followlinks=True -->To visit directories pointed by symbolic links
+---------------------------------------------------------------------------------------------------------
+Pickling and Unpickling of Objects:
+The process of writing state of object to the file is called pickling and the process of reading state of an object from the file is called unpickling.
+We can implement pickling and unpickling by using pickle module of Python.
+  ** pickle.dump(object,file)
+  ** obj=pickle.load(file)
+_________________________________________________________________________________________________________________________________________________________________Exception Handling:::  Exception Handling concept applicable for Runtime Errors but not for syntax errors
+----------------------------------------------------------------------------
+Exception:
+An unwanted and unexpected event that disturbs normal flow of program is called exception.
+Note:: Exception handling does not mean repairing exception. We have to define alternative way to continue rest of the program normally.
+    try:
+     Risky Code
+    except XXX:
+     Handling code/Alternative Code
+    finally:
+     Cleanup code
+Else-Try-Except_Finally::
+    try:
+     Risky Code
+    except:
+     will be executed if exception inside try
+    else:
+     will be executed if there is no exception inside try
+    finally:
+     will be executed whether exception raised or not raised and handled or not handled
+_______________________________________________________________________________________________________________________________________________________________
+Logging::::
+--------------------------------------------------------------------------------
+It is highly recommended to store complete application flow and exceptions information to a file. This process is called "logging."
+
+1. CRITICAL==>50==>Represents a very serious problem that needs high attention
+2. ERROR===>40===>Represents a serious error
+3. WARNING==>30==>Represents a warning message, some caution needed. It is alert to the programmer
+4. INFO===>20===>Represents a message with some important information
+5. DEBUG===>10==>Represents a message with debugging information
+6. NOTSET==>0==>Rrepresents that the level is not set.
+
+To perform logging, first we required to create a file to store messages and we have to specify which level messages required to store.
+
+   logging.basicConfig(filename='log.txt',level=logging.WARNING)
+  
+After creating log file, we can write messages to that file by using the following methods  
+   logging.debug(message)
+   logging.info(message)
+   logging.warning(message)
+   logging.error(message)
+   logging.critical(message)
+-----------------------------------------------------------------------------------------------------
+How to configure log file in over writing mode:
+
+meant for appending
+   logging.basicConfig(filename='log786.txt',level=logging.WARNING)
+explicitly we are specifying appending.
+   logging.basicConfig(filename='log786.txt',level=logging.WARNING,filemode='a')
+meant for over writing of previous data.
+   logging.basicConfig(filename='log786.txt',level=logging.WARNING,filemode='w')
+
+Note:
+logging.basicConfig(filename='log.txt',level=logging.DEBUG)
+If we are not specifying level then the default level is WARNING(30)
+If we are not specifying file name then the messages will be printed to the console.
+---------------------------------------------------------------------------------------------------
+How to Format log messages:
+1. To display only level name:
+    logging.basicConfig(format='%(levelname)s')
+2. To display levelname and message:
+    logging.basicConfig(format='%(levelname)s:%(message)s')
+--------------------------------------------------------------------------------------------------
+How to add timestamp in the log messages:
+    logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s')
+How to change date and time format:
+**************We have to use special keyword argument: datefmt
+    logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s', datefmt='%d/%m/%Y %I:%M:%S %p')
+   datefmt='%d/%m/%Y %I:%M:%S %p' ===>case is important
+
+Steps for Advanced Logging:
+1. Creation of Logger object and set log level
+    logger = logging.getLogger('demologger')
+    logger.setLevel(logging.INFO)
+2. Creation of Handler object and set log level There are several types of Handlers like StreamHandler, FileHandler etc
+    consoleHandler = logging.StreamHandler()
+    consoleHandler.setLevel(logging.INFO)
+   
+    fileHandler=logging.FileHandler('abc.log',mode='a')
+    fileHandler.setLevel(logging.ERROR)
+   
+Note: If we use StreamHandler then log messages will be printed to console
+3. Creation of Formatter object
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s', datefmt='%d/%m/%Y %I:%M:%S %p')
+4. Add Formatter to Handler
+    consoleHandler.setFormatter(formatter)
+5. Add Handler to Logger
+    logger.addHandler(consoleHandler)
+6. Write messages by using logger object and the following methods
+    logging.debug(message)
+    logging.info(message)
+    logging.warning(message)
+    logging.error(message)
+    logging.critical(message)
+--------------------------------------------------------------------------------------------------------------
+
+Logger with Configuration File:
+In the above program, everything we hard coded in the python script. It is not a good programming practice. We will configure all the required things inside a configuration file and we can use this file directly in our program.
+                 logging.config.fileConfig('logging.conf') 
+				 logger = logging.getLogger(LoggerDemoConf.__name__)
+Note: The extension of the file need not be conf. We can use any extension like txt or durga etc  
+_________________________________________________________________________________________________________________________________________________________________
+
+Regular Expressions:::
+
+1. compile()
+re module contains compile() function to compile a pattern into RegexObject.
+pattern = re.compile("ab")
+
+2. finditer():
+Returns an Iterator object which yields Match object for every Match
+matcher = pattern.finditer("abaababa")
+matcher=re.finditer("ab","abaababa")
+  1. start() -> Returns start index of the match
+  2. end()   -> Returns end+1 index of the match
+  3. group() -> Returns the matched string
+---------------------------------------------------------------------
+Character classes:
+We can use character classes to search a group of characters
+1. [abc]===>Either a or b or c
+2. [^abc] ===>Except a and b and c
+3. [a-z]==>Any Lower case alphabet symbol
+4. [A-Z]===>Any upper case alphabet symbol
+5. [a-zA-Z]==>Any alphabet symbol
+6. [0-9] Any digit from 0 to 9
+7. [a-zA-Z0-9]==>Any alphanumeric character
+8. [^a-zA-Z0-9]==>Except alphanumeric characters(Special Characters)
+-----------------------------------------------------------------------
+Pre defined Character classes:
+\s ===> Space character
+\S ===> Any character except space character
+\d ===> Any digit from 0 to 9
+\D ===> Any character except digit
+\w ===> Any word character [a-zA-Z0-9]
+\W ===> Any character except word character (Special Characters)
+. ===> Any character including special characters
+------------------------------------------------------------------------ 
+Qunatifiers:
+We can use quantifiers to specify the number of occurrences to match.
+a    ===> Exactly one 'a'
+a+   ===> Atleast one 'a'
+a*   ===> Any number of a's including zero number
+a?   ===> Atmost one 'a' ie either zero number or one number
+a{m}  ===> Exactly m number of a's
+a{m,n}  ===> Minimum m number of a's and Maximum n number of a's
+------------------------------------------------------------------------
+Note:
+^x ===> It will check whether target string starts with x or not
+x$ ===> It will check whether target string ends with x or not
+------------------------------------------------------------------------
+Important functions of re module:
+1. match()   ===> to match with beginning of pattern
+2. fullmatch()  ===> complete match of pattern
+3. search()   ===> returns the Match object which represents first occurrence of the match.
+4.findall()         ===> To find all occurrences of the match.
+5.finditer()        ===> Returns the iterator yielding a match object for each match.
+6. sub()            ===> sub means substitution or replacement
+                          *****re.sub(regex,replacement,targetstring)
+7.subn()            ===> returns a tuple where first element is result string and second element is number of replacements.
+                              (resultstring, number of replacements)
+8. split()          ===> split the given target string according to a particular pattern
+9. compile()        ===> combine a regular expression pattern into pattern(regEX) objects
+______________________________________________________________________________________________________________________________________________________________
+
+Web Scraping by using Regular Expressions:
+------------------------------------------------------------------------
+The process of collecting information from web pages is called web scraping. In web scraping to
+match our required patterns like mail ids, mobile numbers we can use regular expressions
+
+
+What's the difference between smoke and sanity testing?
+Smoke testing is done to assure that the acute functionalities of program is working fine. Sanity testing is done to check the bugs have been fixed after the build. Smoke testing is also called subset of acceptance testing. Sanity testing is also called subset of regression testing.

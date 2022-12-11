@@ -1,0 +1,89 @@
+C://Users//Praveen//Python_workspace//Advanced_Python_Webdriver//drivers
+
+General workflow is as follows −  GIT LIFE CYCLE
+1 You clone the Git repository as a working copy.
+2 You modify the working copy by adding/editing files.
+3 If necessary, you also update the working copy by taking other developer's changes.
+4 You review the changes before commit.
+5 You commit changes. If everything is fine, then you push the changes to the repository.
+6 After committing, if you realize something is wrong, then you correct the last commit and push the changes to the repository.
+
+
+
+
+Git and Github
+
+$ git clone https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git
+----------------------
+1. Create local git repository
+cd C:\Users\Praveen\PycharmProjects\Hybrid_Framework
+   $ git init
+2.Go to local project location and right click and open git bash
+  connect git to remote repository(which is created in github)
+   $ git remote add origin https://github.com/pk891936/HybridFramework_Python.git
+*****for frst time only
+Before doing commit first time we need to execute below commands
+   $ git config --global user.name "Praveen"
+   $ git config --global user.email "praveenkmr151@outlook.com"
+  
+3.Before add command check status of files committed or not committed
+   $ git status
+4. To add files for commit
+   $ git add -A
+5 commit the code into git repository(local)  
+   $ git commit -m "This is first commit"
+6. Push code from git -->github repository
+   $ git push -u origin master
+Framework code here :  https://github.com/pk891936/HybridFramework_Python.git
+7. pull code from repository
+   $ git pull
+
+2nd round:
+----------------------------
+$ git pull
+$ git status
+$ git add -A
+$ git commit -m "This is first commit"
+$ git push -u origin master
+
+git clone https://github.com/automationhacks/course-api-framework-python.git
+git clone https://github.com/automationhacks/people-api.git
+$ git clone https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git
+
+http://0.0.0.0:5000/  flask server in local
+$ git commit -a -m "commit msg" ================> commit automatically detect the modified files.
+$ git diff           ================> to compare with previous version of files
+$ git stash          ================> to save changes without commit and work on other branch
+$ git rm filename    ================> to remove file
+$ git checkout filename.c ================> to obtain a deleted file from the local repository
+           ================>Revert Uncommitted Changes
+$ git checkout HEAD -- filename.c ================>Remove Changes from Staging Area
+$ git format-patch -1  ================>creates .patch files inside the current working directory
+$ git apply 0001-Added-my_strcat-function.patch ================> modifies the local files without creating commit
+$ git am file.patch       ================>modifies the file and creates commit as well.
+$ git branch new_branch   ================> A new branch is created
+$ git checkout branchname ================> switch to branchname
+$ git checkout -b test_branch ================> Create and switch to new branch
+$ git branch -D test_branch ================> delete branch
+$ git branch -m new_branch wchar_support ================> Rename branch
+$ git merge origin/wchar_support ================> merging branch to origin
+
+Git Rebase:
+==============================================================
+When multiple developers work on a single remote repository, you cannot modify the order of the commits in the remote repository. In this situation, you can use rebase operation to put your local commits on top of the remote repository commits and you can push these changes
+=========================================================================================
+local commits==> A->B->C->D merge branch has commits A−>B−>X−>Y
+$ git merge   =====> A−>B−>C−>D−>X−>Y
+$ git rebase =====> A−>B−>X−>Y−>C−>D.
+=========================================================================================
+Tackle Conflicts
+Tom wants to see what Jerry is doing on his private branch so, he tries to pull the latest changes from the wchar_support branch, but Git aborts the operation with the following error message.
+pull ===> $ git pull origin branchname
+CONFLICT (content): Merge conflict in src/string_operations.c
+  $ git diff -- see the conflict
+modify the conflict manually
+  $ git commit -a -m "resolved Conflict"
+  $ git pull origin branchname
+
+
+

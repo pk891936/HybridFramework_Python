@@ -3,9 +3,9 @@ import pytest
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage import AddCustomer
 from pageObjects.SearchCustomerPage_Action import SearchCustomer
-from utilities.readProperties import readConfig
-from utilities.customlogger import logGenerator
-from utilities.module_mapping import driver_mapping
+from Utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator
+from Utilities.module_mapping import driver_mapping
 from selenium.webdriver.common.by import By
 
 class Test_SearchCustomerByName_005:

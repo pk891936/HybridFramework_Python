@@ -1,0 +1,9 @@
+allure
+
+node.js install
+npm install -g allure-commandline --save-dev
+
+
+for running Jenkins
+java -jar jenkins.war --enable-future-java
+

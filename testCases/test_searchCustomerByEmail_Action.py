@@ -3,10 +3,10 @@ import pytest
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage import AddCustomer
 from pageObjects.SearchCustomerPage_Action import SearchCustomer
-from utilities.readProperties import readConfig
-from utilities.customlogger import logGenerator as lg
+from Utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator as lg
 from selenium.webdriver.common.by import By
-from utilities.module_mapping import driver_mapping
+from Utilities.module_mapping import driver_mapping
 
 class Test_SearchCustomerByEmail_004:
     baseURL = readConfig.getApplicationURL()

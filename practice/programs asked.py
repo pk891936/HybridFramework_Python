@@ -3,7 +3,7 @@ import re
 print("Replace . with - using re")
 s =["11.22.334.444","32.34.112.23"]
 for i in s:
-    print(re.sub('\.',"-",i))
+    print(re.sub('..', "-", i))
 
 for i in s:
     x= i.replace('.','-')

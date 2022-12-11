@@ -1,8 +1,9 @@
 import requests
-import json , jsonpath
+import json
+import jsonpath
 import allure
-from utilities.customlogger import logGenerator
-from utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator
+from Utilities.readProperties import readConfig
 
 
 @allure.severity(allure.severity_level.BLOCKER)
@@ -18,9 +19,12 @@ def test_AddNew_Student():
     response = requests.post(App_Url,payload_json)
     print(response.text)
     print(response.status_code)
-    resp_json = response.json()
-    assert response.status_code == 201
-    assert resp_json['id'] is not None
+    resp_json = json.loads(response.text)
+    print("*****Response*********")
+    print(resp_json)
+    print("**************************************************")
+    assert response.status_code == 200
+    #assert resp_json['id'] is not None
     id = jsonpath.jsonpath(resp_json,"id")
 
     print(id)
@@ -29,6 +33,9 @@ def test_AddNew_Student():
     tech_API_URL = Base_URL+"/api/technicalskills"
     f = open(JsonFilePath+"//TechDetails.json",'r')
     request_json = json.loads(f.read())
+    print("*****Request*********")
+    print(request_json)
+    print("**************************************************")
     request_json["id"] = int(id[0])
     request_json["st_id"] = id[0]
     response = requests.post(tech_API_URL, request_json)

@@ -1,8 +1,8 @@
 import requests
 import json , jsonpath
 import allure
-from utilities.customlogger import logGenerator
-from utilities.readProperties import readConfig
+from Utilities.customlogger import logGenerator
+from Utilities.readProperties import readConfig
 
 
 @allure.severity(allure.severity_level.BLOCKER)

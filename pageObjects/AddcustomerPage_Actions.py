@@ -1,6 +1,6 @@
 import time
 from selenium.webdriver.support.ui import Select
-from utilities.module_mapping import driver_mapping
+from Utilities.module_mapping import driver_mapping
 from selenium.webdriver.common.by import By
 
 

@@ -1,11 +1,11 @@
 import json
 
-with open('sample_file.json', 'r') as f:
+with open('../testCases/sample_file.json', 'r') as f:
     data = json.load(f)
 
 data['first_name'] = 'JSON!'
 
-with open('sample_file.json', 'w') as f:
+with open('../testCases/sample_file.json', 'w') as f:
     json.dump(data, f, indent=2)
     print("File dict modified")
 

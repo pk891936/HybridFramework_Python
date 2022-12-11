@@ -2,7 +2,7 @@ import pytest,logging
 from selenium import webdriver
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddcustomerPage_Actions import AddCustomer
-from utilities.readProperties import readConfig
+from Utilities.readProperties import readConfig
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

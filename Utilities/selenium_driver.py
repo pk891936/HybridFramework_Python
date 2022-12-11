@@ -3,10 +3,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-from utilities.customlogger import logGenerator as lg
+from Utilities.customlogger import logGenerator as lg
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
-from utilities.readProperties import readConfig
+from Utilities.readProperties import readConfig
 
 #import cx_Oracle
 import re

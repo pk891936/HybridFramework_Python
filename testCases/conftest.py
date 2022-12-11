@@ -1,6 +1,6 @@
 from selenium import webdriver
 import pytest
-from utilities.readProperties import readConfig
+from Utilities.readProperties import readConfig
 
 @pytest.yield_fixture(scope="class")
 def invoke_browser(request,browser):

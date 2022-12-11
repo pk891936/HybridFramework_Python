@@ -744,3 +744,80 @@
 08:02:2022 03:35:37 PM - root - INFO - {"Message":"The requested resource does not support http method 'PUT'."}
 08:02:2022 03:35:37 PM - root - INFO - ***************GET:Final Student Details After Update*****************
 08:02:2022 03:35:37 PM - root - INFO - {"status":"true","data":{"first_name":"Test","middle_name":"API","last_name":"Python","date_of_birth":"12-12-1993","TechnicalDetails":[{"id":24394,"language":["Python","Java"],"yearexp":"3","lastused":"2021","st_id":"942778"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"942778"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"942778"}]}}
+26:10:2022 03:09:48 PM - root - INFO - ************test_LoginPageTitle*************
+26:10:2022 03:09:54 PM - root - INFO - ************Loaded URL*************
+26:10:2022 03:09:54 PM - root - INFO - ************Verifying LoginPage Title*************
+26:10:2022 03:09:54 PM - root - INFO - ************test_LoginPageTitle Passed*************
+26:10:2022 03:09:57 PM - root - INFO - ************test_Login*************
+26:10:2022 03:10:02 PM - root - INFO - ************Loaded URL*************
+26:10:2022 03:10:02 PM - root - INFO - ************input Username*************
+26:10:2022 03:10:02 PM - root - INFO - ************input Password*************
+26:10:2022 03:10:02 PM - root - INFO - ************clicking Login*************
+26:10:2022 03:10:14 PM - root - INFO - ************Login Successfull*************
+26:10:2022 03:10:14 PM - root - INFO - ************Verifying HomePage Title*************
+26:10:2022 03:10:14 PM - root - ERROR - ************test_Login Failed*************
+27:10:2022 11:52:46 AM - root - INFO - ***************test_AddNew_Student*****************
+27:10:2022 11:52:46 AM - root - INFO - ***************Post:Add New Student*****************
+27:10:2022 11:53:35 AM - root - INFO - ***************test_AddNew_Student*****************
+27:10:2022 11:53:35 AM - root - INFO - ***************Post:Add New Student*****************
+27:10:2022 11:53:35 AM - root - INFO - ***************Post:Add Student Technical Skills*****************
+27:10:2022 11:59:18 AM - root - INFO - ***************test_AddNew_Student*****************
+27:10:2022 11:59:18 AM - root - INFO - ***************Post:Add New Student*****************
+27:10:2022 11:59:18 AM - root - INFO - ***************Post:Add Student Technical Skills*****************
+27:10:2022 12:06:34 PM - root - INFO - ***************test_AddNew_Student*****************
+27:10:2022 12:06:34 PM - root - INFO - ***************Post:Add New Student*****************
+27:10:2022 12:06:34 PM - root - INFO - ***************Post:Add Student Technical Skills*****************
+02:12:2022 11:52:26 AM - root - INFO - ************Test_002_Login_DDT**************
+02:12:2022 11:52:26 AM - root - INFO - ************test_Login*************
+02:12:2022 11:52:33 AM - root - INFO - ************Loaded URL*************
+02:12:2022 11:52:34 AM - root - INFO - ************input Username*************
+02:12:2022 11:52:34 AM - root - INFO - ************input Password*************
+02:12:2022 11:52:35 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:52:42 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:52:42 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:52:42 AM - root - INFO - ************Passed*************
+02:12:2022 11:52:45 AM - root - INFO - ************input Username*************
+02:12:2022 11:52:45 AM - root - INFO - ************input Password*************
+02:12:2022 11:52:46 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:52:47 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:52:47 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:52:47 AM - root - INFO - ************input Username*************
+02:12:2022 11:52:48 AM - root - INFO - ************input Password*************
+02:12:2022 11:52:48 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:52:49 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:52:49 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:52:49 AM - root - INFO - ************input Username*************
+02:12:2022 11:52:50 AM - root - INFO - ************input Password*************
+02:12:2022 11:52:50 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:52:51 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:52:51 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:52:51 AM - root - INFO - ************input Username*************
+02:12:2022 11:52:51 AM - root - INFO - ************input Password*************
+02:12:2022 11:58:17 AM - root - INFO - ************Test_002_Login_DDT**************
+02:12:2022 11:58:17 AM - root - INFO - ************test_Login*************
+02:12:2022 11:58:23 AM - root - INFO - ************Loaded URL*************
+02:12:2022 11:58:23 AM - root - INFO - ************input Username*************
+02:12:2022 11:58:24 AM - root - INFO - ************input Password*************
+02:12:2022 11:58:25 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:58:32 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:58:32 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:58:32 AM - root - INFO - ************Passed*************
+02:12:2022 11:58:35 AM - root - INFO - ************input Username*************
+02:12:2022 11:58:36 AM - root - INFO - ************input Password*************
+02:12:2022 11:58:36 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:58:37 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:58:37 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:58:37 AM - root - INFO - ************input Username*************
+02:12:2022 11:58:37 AM - root - INFO - ************input Password*************
+02:12:2022 11:58:38 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:58:39 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:58:39 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:58:39 AM - root - INFO - ************input Username*************
+02:12:2022 11:58:39 AM - root - INFO - ************input Password*************
+02:12:2022 11:58:40 AM - root - INFO - ************clicking Login*************
+02:12:2022 11:58:41 AM - root - INFO - ************Login Successfull*************
+02:12:2022 11:58:41 AM - root - INFO - ************Verifying HomePage Title*************
+02:12:2022 11:58:41 AM - root - INFO - ************input Username*************
+02:12:2022 12:20:30 PM - root - INFO - ***************test_AddNew_Student*****************
+02:12:2022 12:20:30 PM - root - INFO - ***************Post:Add New Student*****************
+02:12:2022 12:20:33 PM - root - INFO - ***************Post:Add Student Technical Skills*****************

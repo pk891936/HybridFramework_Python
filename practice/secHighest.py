@@ -16,3 +16,17 @@ def lowestNumber(l):
     return myMin
 print(highestNumber(l))
 print(lowestNumber(l))
+
+a = []
+def secondLargest(l):
+    max = l[0]
+    for num in l:
+        if max < num:
+            max = num
+        if max not in a:
+            a.append(max)
+            print(a)
+    return a
+
+print(secondLargest(l)[-2])
+

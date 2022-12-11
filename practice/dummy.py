@@ -10,7 +10,7 @@ import csv
 
 
 
-with open("abcd.txt",mode='r') as f:
+with open("abcd.txt", mode='r') as f:
     data = f.readlines()
     with open("data.csv", mode='w', newline='') as csvfile:
         wr = csv.writer(csvfile)
@@ -22,7 +22,7 @@ with open("abcd.txt",mode='r') as f:
             wr.writerow([p[5][1:],p[8],p[9],x,p[12][1:]])
             #print("Method:",p[5][1:],"Status Code:",p[8],"bytes:",p[9],"Url:",x ,"user-agent:",p[12][1:])
 
-f = open("abcd.txt",mode='r')
+f = open("abcd.txt", mode='r')
 data = f.readlines()
 for line in data:
     p = line.split(" ")
